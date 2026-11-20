@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<title>TontineSats landing glass directions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1280px;height:820px;overflow:hidden}
+  body{font-family:Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  .page{
+    position:relative;width:1280px;height:820px;overflow:hidden;padding:0 100px;color:var(--ink);
+    --ink:#fff;--soft:rgba(255,255,255,.72);--faint:rgba(255,255,255,.52);--line:rgba(255,255,255,.16);
+    --glass-bg:rgba(255,255,255,.09);--glass-border:rgba(255,255,255,.15);--blur:24px;--sat:1.4;
+  }
+  .page::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:var(--bg);}
+  .grain{position:absolute;inset:0;z-index:1;pointer-events:none;opacity:0;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
+  }
+  .inner{position:relative;z-index:2;width:1080px;margin:0 auto}
+
+  .topbar{height:88px;display:flex;align-items:center;justify-content:space-between}
+  .brand{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:700;letter-spacing:-.01em}
+  .mark{width:30px;height:30px;border-radius:50%;border:2px dashed currentColor;opacity:.9;position:relative;flex:none}
+  .mark::after{content:"";position:absolute;inset:9px;border-radius:50%;background:currentColor}
+  .nav{display:flex;align-items:center;gap:10px}
+  .lang{display:flex;gap:2px;padding:3px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.08)}
+  .lang b{display:grid;place-items:center;min-width:40px;height:34px;border-radius:999px;font-size:11px;font-weight:600;color:var(--soft)}
+  .lang b.on{background:#fff;color:#0f2942}
+  .enter{display:inline-flex;align-items:center;gap:7px;height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--line);font-size:12.5px;font-weight:600;color:var(--ink);background:transparent}
+
+  .hero{display:grid;grid-template-columns:1.06fr .94fr;gap:56px;align-items:center;padding-top:44px}
+  .overline{font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+  h1{font-size:55px;line-height:1.05;letter-spacing:-.035em;font-weight:700;margin-top:14px;max-width:560px}
+  .sub{font-size:15px;line-height:1.62;color:var(--soft);margin-top:16px;max-width:520px}
+  .ctas{display:flex;gap:10px;margin-top:26px}
+  .btn{display:inline-flex;align-items:center;gap:8px;height:48px;padding:0 20px;border-radius:10px;font-size:15px;font-weight:600}
+  .btn.solid{background:#fff;color:#0f2942}
+  .btn.outline{border:1px solid var(--line);color:var(--ink)}
+  .note{display:flex;align-items:center;gap:6px;margin-top:14px;font-size:11px;color:var(--faint)}
+  .shield{width:13px;height:13px;border:1.6px solid currentColor;border-radius:3px 3px 7px 7px}
+
+  .proofs{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}
+  .proofs li{padding-top:12px;border-top:1px solid var(--line);min-height:86px}
+  .proofs .ic{display:block;width:16px;height:16px;border:1.6px solid var(--soft);border-radius:4px}
+  .proofs h3{font-size:12.5px;font-weight:600;margin-top:8px}
+  .proofs p{font-size:11.5px;line-height:1.55;color:var(--faint);margin-top:4px;max-width:250px}
+
+  .pot{padding:20px;border-radius:22px;border:1px solid var(--glass-border);background:var(--glass-bg);
+    -webkit-backdrop-filter:blur(var(--blur)) saturate(var(--sat));backdrop-filter:blur(var(--blur)) saturate(var(--sat));
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.28), 0 18px 40px -20px rgba(0,0,0,.45)}
+  .row1{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+  .eyebrow{font-size:10px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--faint)}
+  .badge{font-size:10px;line-height:1.35;text-align:right;max-width:56%;color:var(--soft);border:1px solid var(--line);border-radius:999px;padding:4px 9px}
+  .amount{font-size:34px;font-weight:700;letter-spacing:-.03em;margin-top:12px;font-variant-numeric:tabular-nums}
+  .amount small{font-size:13px;font-weight:600;color:var(--soft);margin-left:5px}
+  .sats{font-size:11px;color:var(--faint);margin-top:4px}
+  .progress{margin-top:18px}
+  .prow{display:flex;justify-content:space-between;font-size:10.5px;color:var(--soft)}
+  .track{height:6px;border-radius:99px;background:rgba(255,255,255,.18);margin-top:6px;overflow:hidden}
+  .fill{height:100%;width:62.5%;border-radius:99px;background:rgba(255,255,255,.82)}
+  .people{display:flex;align-items:center;margin-top:12px;gap:8px}
+  .avs{display:flex;padding-left:8px}
+  .av{width:28px;height:28px;border-radius:50%;border:1px solid var(--line);background:rgba(255,255,255,.14);
+    display:grid;place-items:center;font-size:9px;font-weight:600;margin-left:-8px}
+  .people span{font-size:10px;color:var(--faint)}
+  .potfoot{display:flex;align-items:flex-end;justify-content:space-between;gap:10px;border-top:1px solid var(--line);margin-top:16px;padding-top:14px}
+  .k{font-size:10px;color:var(--faint)}
+  .v{font-size:17px;font-weight:600;margin-top:2px;font-variant-numeric:tabular-nums}
+  .pay{background:#fff;color:#0f2942;border-radius:10px;padding:11px 14px;font-size:11px;font-weight:600;white-space:nowrap}
+
+  .foot{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);
+    margin-top:30px;padding-top:14px;font-size:10.5px;color:var(--faint)}
+
+  /* ---------- A · current ---------- */
+  .page[data-variant="a"]{--bg:
+    radial-gradient(520px 520px at 92% -12%, rgba(255,255,255,.10), transparent 65%),
+    radial-gradient(480px 480px at -12% 112%, rgba(255,255,255,.06), transparent 65%),
+    #0f2942;}
+  [data-variant="a"] .stamp::after{content:"A · actuel"}
+
+  /* ---------- B · glass on navy mesh ---------- */
+  .page[data-variant="b"]{--ink:#fff;--soft:rgba(255,255,255,.78);--faint:rgba(255,255,255,.58);--line:rgba(255,255,255,.20);
+    --glass-bg:rgba(255,255,255,.13);--glass-border:rgba(255,255,255,.30);--blur:44px;--sat:1.45;--bg:
+    radial-gradient(640px 600px at 84% -8%, rgba(56,189,248,.55), transparent 62%),
+    radial-gradient(560px 560px at 102% 44%, rgba(4,120,87,.60), transparent 60%),
+    radial-gradient(620px 520px at 48% 114%, rgba(180,83,9,.48), transparent 62%),
+    radial-gradient(820px 640px at 16% 18%, rgba(15,41,66,.92), transparent 72%),
+    linear-gradient(rgba(11,27,43,.86), rgba(9,20,32,.90)),
+    url("backdrop.jpg") center 72%/cover no-repeat;}
+  [data-variant="b"] .grain{opacity:.14}
+  [data-variant="b"] .topbar{height:64px;margin-top:18px;padding:0 18px;border-radius:999px;
+    border:1px solid var(--glass-border);background:var(--glass-bg);
+    -webkit-backdrop-filter:blur(var(--blur)) saturate(var(--sat));backdrop-filter:blur(var(--blur)) saturate(var(--sat));
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.3)}
+  [data-variant="b"] .hero{padding-top:52px}
+  [data-variant="b"] .proofs li{border-top:0;border-radius:16px;padding:14px;min-height:112px;
+    border:1px solid var(--glass-border);background:var(--glass-bg);
+    -webkit-backdrop-filter:blur(30px) saturate(var(--sat));backdrop-filter:blur(30px) saturate(var(--sat));
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.24)}
+  [data-variant="b"] .foot{border-color:var(--line)}
+  [data-variant="b"] .stamp::after{content:"B · verre sur mesh navy + texture"}
+
+  /* ---------- C · photo backdrop ---------- */
+  .page[data-variant="c"]{--ink:#fff;--soft:rgba(255,255,255,.82);--faint:rgba(255,255,255,.62);--line:rgba(255,255,255,.26);
+    --glass-bg:rgba(255,255,255,.16);--glass-border:rgba(255,255,255,.34);--blur:64px;--sat:1.55;--bg:
+    linear-gradient(90deg, rgba(8,18,30,.90) 0%, rgba(8,18,30,.70) 46%, rgba(8,18,30,.38) 100%),
+    url("backdrop.jpg") center/cover no-repeat;}
+  [data-variant="c"] .topbar{height:64px;margin-top:18px;padding:0 18px;border-radius:999px;
+    border:1px solid var(--glass-border);background:rgba(255,255,255,.12);
+    -webkit-backdrop-filter:blur(44px) saturate(var(--sat));backdrop-filter:blur(44px) saturate(var(--sat));
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.34)}
+  [data-variant="c"] .hero{padding-top:52px}
+  [data-variant="c"] .proofs li{border-top:0;border-radius:16px;padding:14px;min-height:112px;
+    border:1px solid var(--glass-border);background:rgba(255,255,255,.11);
+    -webkit-backdrop-filter:blur(36px) saturate(var(--sat));backdrop-filter:blur(36px) saturate(var(--sat));
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.28)}
+  [data-variant="c"] .foot{border-color:var(--line)}
+  [data-variant="c"] .stamp::after{content:"C · photo + verre"}
+
+  /* ---------- D · light mesh ---------- */
+  .page[data-variant="d"]{--ink:#0f172a;--soft:rgba(15,23,42,.74);--faint:rgba(15,23,42,.56);--line:rgba(15,23,42,.14);
+    --glass-bg:rgba(255,255,255,.30);--glass-border:rgba(255,255,255,.72);--blur:52px;--sat:1.5;--bg:
+    radial-gradient(rgba(15,23,42,.07) 1px, transparent 1px) 0 0/18px 18px,
+    radial-gradient(680px 560px at 82% 2%, rgba(4,120,87,.42), transparent 62%),
+    radial-gradient(620px 540px at 98% 48%, rgba(56,189,248,.38), transparent 62%),
+    radial-gradient(560px 460px at 28% 108%, rgba(180,83,9,.24), transparent 62%),
+    #f8fafc;}
+  [data-variant="d"] .grain{opacity:.06}
+  [data-variant="d"] .lang{background:rgba(255,255,255,.45);border-color:rgba(15,23,42,.12)}
+  [data-variant="d"] .lang b.on{background:#0f2942;color:#fff}
+  [data-variant="d"] .topbar{height:64px;margin-top:18px;padding:0 18px;border-radius:999px;
+    border:1px solid var(--glass-border);background:rgba(255,255,255,.40);
+    -webkit-backdrop-filter:blur(var(--blur)) saturate(var(--sat));backdrop-filter:blur(var(--blur)) saturate(var(--sat));
+    box-shadow:inset 0 1px 0 #fff, 0 18px 40px -24px rgba(15,23,42,.28)}
+  [data-variant="d"] .hero{padding-top:52px}
+  [data-variant="d"] .btn.solid{background:#0f2942;color:#fff}
+  [data-variant="d"] .proofs li{border-top:0;border-radius:16px;padding:14px;min-height:112px;
+    border:1px solid var(--glass-border);background:rgba(255,255,255,.30);
+    -webkit-backdrop-filter:blur(28px) saturate(var(--sat));backdrop-filter:blur(28px) saturate(var(--sat));
+    box-shadow:inset 0 1px 0 #fff}
+  [data-variant="d"] .pot{background:rgba(255,255,255,.38);border-color:var(--glass-border);
+    box-shadow:inset 0 1px 0 #fff, 0 18px 40px -20px rgba(15,23,42,.28)}
+  [data-variant="d"] .pay{background:#0f2942;color:#fff}
+  [data-variant="d"] .track{background:rgba(15,23,42,.12)}
+  [data-variant="d"] .fill{background:rgba(15,23,42,.82)}
+  [data-variant="d"] .av{background:rgba(255,255,255,.6);border-color:rgba(15,23,42,.16)}
+  [data-variant="d"] .lang{background:rgba(255,255,255,.5)}
+  [data-variant="d"] .stamp{color:rgba(15,23,42,.5);border-color:rgba(15,23,42,.16)}
+  [data-variant="d"] .stamp::after{content:"D · mesh clair + texture"}
+
+  .stamp{position:absolute;left:24px;bottom:20px;z-index:3;font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+    color:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:5px 10px;background:rgba(0,0,0,.18)}
+</style>
+</head>
+<body>
+<div class="page" data-variant="a" id="page">
+  <div class="grain"></div>
+  <div class="inner">
+    <header class="topbar">
+      <div class="brand"><span class="mark"></span>TontineSats</div>
+      <div class="nav">
+        <div class="lang"><b class="on">FR</b><b>EN</b><b>WO</b></div>
+        <span class="enter">Entrer <span aria-hidden="true">→</span></span>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="copy">
+        <p class="overline">Dakar · Paris · Thiès</p>
+        <h1>La tontine qui ne garde jamais votre argent.</h1>
+        <p class="sub">Chaque membre paie le bénéficiaire du tour, directement. TontineSats suit les tours, vérifie les paiements et garde les preuves, pas les fonds.</p>
+        <div class="ctas">
+          <span class="btn solid">Entrer <span aria-hidden="true">→</span></span>
+          <span class="btn outline">Rejoindre une tontine</span>
+        </div>
+        <p class="note"><span class="shield"></span>La clé reste dans ce navigateur.</p>
+      </div>
+
+      <aside class="pot">
+        <div class="row1">
+          <p class="eyebrow">Cagnotte du tour</p>
+          <span class="badge">Tour 3 · Tontine Sandaga</span>
+        </div>
+        <p class="amount">192 000 <small>FCFA</small></p>
+        <p class="sats">≈ 321 970 sats</p>
+        <div class="progress">
+          <div class="prow"><span>5 sur 8 ont payé</span><span>12 novembre 2026</span></div>
+          <div class="track"><div class="fill"></div></div>
+          <div class="people">
+            <div class="avs"><span class="av">AD</span><span class="av">MD</span><span class="av">MS</span><span class="av">+5</span></div>
+            <span>Tontine Sandaga</span>
+          </div>
+        </div>
+        <div class="potfoot">
+          <div><p class="k">Votre cotisation</p><p class="v">24 000 FCFA</p></div>
+          <span class="pay">Payer 24 000 FCFA</span>
+        </div>
+      </aside>
+    </section>
+
+    <ul class="proofs">
+      <li><span class="ic"></span><h3>Paiement direct</h3><p>Le bénéficiaire reçoit son tour sur son propre portefeuille Lightning.</p></li>
+      <li><span class="ic"></span><h3>Reçus co-signés</h3><p>Chaque cotisation produit une preuve vérifiable, attachée à votre npub.</p></li>
+      <li><span class="ic"></span><h3>FCFA d'abord</h3><p>Les montants sont en CFA. Lightning est le rail, pas le vocabulaire.</p></li>
+    </ul>
+
+    <footer class="foot">
+      <span>Prototype · réseau signet · aucune transaction réelle</span>
+      <span>Rejoindre une tontine · Tontine Sandaga</span>
+    </footer>
+  </div>
+  <div class="stamp"></div>
+</div>
+<script>
+  const v = new URLSearchParams(location.search).get('v') || 'a';
+  document.getElementById('page').dataset.variant = v;
+</script>
+</body>
+</html>

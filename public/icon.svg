@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="TontineSats">
+  <rect width="512" height="512" rx="112" fill="#0F2942"/>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="26"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="26" stroke-linecap="round" transform="rotate(-90 256 256)">
+    <circle cx="256" cy="256" r="150" stroke-dasharray="38 1000" stroke-dashoffset="0" stroke-opacity="1"/>
+    <circle cx="256" cy="256" r="150" stroke-dasharray="38 1000" stroke-dashoffset="118" stroke-opacity="1"/>
+    <circle cx="256" cy="256" r="150" stroke-dasharray="38 1000" stroke-dashoffset="236" stroke-opacity="1"/>
+    <circle cx="256" cy="256" r="150" stroke-dasharray="38 1000" stroke-dashoffset="354" stroke-opacity="1"/>
+    <circle cx="256" cy="256" r="150" stroke-dasharray="38 1000" stroke-dashoffset="472" stroke-opacity="1"/>
+    <circle cx="256" cy="256" r="150" stroke-dasharray="38 1000" stroke-dashoffset="590" stroke-opacity="0.28"/>
+    <circle cx="256" cy="256" r="150" stroke-dasharray="38 1000" stroke-dashoffset="708" stroke-opacity="0.28"/>
+    <circle cx="256" cy="256" r="150" stroke-dasharray="38 1000" stroke-dashoffset="826" stroke-opacity="0.28"/>
+  </g>
+</svg>

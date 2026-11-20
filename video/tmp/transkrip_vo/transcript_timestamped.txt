@@ -1,0 +1,43 @@
+[00:00:00.090 - 00:00:04.520] Across West Africa, millions of people saved together through Tontine.
+[00:00:04.960 - 00:00:08.080] Trusted circles where everyone contributes each month,
+[00:00:08.590 - 00:00:10.470] and one member takes home the full pot.
+[00:00:11.250 - 00:00:13.140] But managing cash across borders,
+[00:00:13.680 - 00:00:14.720] tracking who paid,
+[00:00:15.200 - 00:00:17.600] and trusting a middleman to hold the funds is hard.
+[00:00:18.320 - 00:00:19.120] That's why we built
+[00:00:19.500 - 00:00:20.570] TontineSats.
+[00:00:21.650 - 00:00:24.960] Here on the landing page, everything Sats in CFA Franks,
+[00:00:25.490 - 00:00:28.370] with EUR and Bitcoin Sats shown right underneath.
+[00:00:29.090 - 00:00:30.090] We support French,
+[00:00:30.550 - 00:00:31.850] English, and Wolof.
+[00:00:32.630 - 00:00:35.960] Let's switch to English and jump straight into a live demo circle.
+[00:00:36.540 - 00:00:37.580] Welcome to
+[00:00:38.780 - 00:00:40.300] TontineSats in Dakar.
+[00:00:40.980 - 00:00:45.050] Eight members each contribute 24 ,000 CFA Franks a month,
+[00:00:45.610 - 00:00:48.820] creating a 192 ,000 CFA pot.
+[00:00:49.720 - 00:00:52.400] This month, round three goes to Mariama -Sau.
+[00:00:53.060 - 00:00:54.460] And if you're in the diaspora,
+[00:00:54.980 - 00:00:55.980] like Moussa in Paris,
+[00:00:56.560 - 00:01:01.170] switching your view automatically shows EUR alongside CFA Franks and Sats,
+[00:01:01.690 - 00:01:03.100] so everyone stays in sync.
+[00:01:04.170 - 00:01:06.020] Now let's contribute to round three.
+[00:01:06.670 - 00:01:07.960] Unlike traditional apps,
+[00:01:08.450 - 00:01:11.530] TontineSats is completely non -custodial.
+[00:01:12.180 - 00:01:14.360] Our server never holds pooled funds.
+[00:01:15.110 - 00:01:20.080] Every payment generates a direct Bitcoin Lightning invoice straight to Mariama wallet,
+[00:01:20.740 - 00:01:27.270] either paid automatically via Nostr wallet Connect or by scanning a standard Lightning QR code.
+[00:01:27.990 - 00:01:31.580] One click and the contribution settles peer -to -peer in seconds.
+[00:01:32.810 - 00:01:38.700] Every payment produces a cryptographic receipt with a verified Lightning pre -preimage and a
+[00:01:38.700 - 00:01:41.010] cosigned Nostr attestation.
+[00:01:41.770 - 00:01:43.160] Over in the trust passport,
+[00:01:43.610 - 00:01:45.720] those verified payments Builders a portable,
+[00:01:46.250 - 00:01:50.140] on -time reputation tied to your own Nostr identity,
+[00:01:50.810 - 00:01:54.280] something you truly own and can bring to any future circle.
+[00:01:55.320 - 00:01:57.740] And creating a real circle takes seconds.
+[00:01:58.450 - 00:01:59.960] Just click New Circle,
+[00:02:00.510 - 00:02:02.690] enter a name like Dakar Builders,
+[00:02:03.300 - 00:02:06.240] set the monthly contribution in CFA Franks,
+[00:02:06.840 - 00:02:10.320] notice the live EUR and Sats conversion, and hit Create.
+[00:02:11.070 - 00:02:14.070] You immediately get a live invite code to share with your group.
+[00:02:14.830 - 00:02:15.980] TontineSats,
+[00:02:16.600 - 00:02:20.870] traditional community savings powered by Bitcoin Lightning and Nostr.

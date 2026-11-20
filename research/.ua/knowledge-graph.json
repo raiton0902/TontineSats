@@ -1,0 +1,1205 @@
+{
+  "version": "1.0.0",
+  "kind": "knowledge",
+  "project": {
+    "name": "TontineSats Research Wiki",
+    "languages": [
+      "markdown"
+    ],
+    "frameworks": [
+      "karpathy-wiki"
+    ],
+    "description": "Knowledge graph for TontineSats Research Wiki",
+    "analyzedAt": "2026-11-06T17:15:13.530855+00:00",
+    "gitCommitHash": ""
+  },
+  "nodes": [
+    {
+      "id": "article:dakar-bitcoin-hack",
+      "type": "article",
+      "name": "Dakar Bitcoin Hack",
+      "filePath": "dakar-bitcoin-hack.md",
+      "summary": "Online Devpost hackathon hosted by Btrust. Goal: tools built on Bitcoin, Lightning, Nostr and AI that improve life in Senegal and Africa.",
+      "tags": [
+        "hackathon"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "past-winners",
+          "tontinesats"
+        ],
+        "category": "Hackathon",
+        "content": "---\ntype: event\nstatus: search-summary\n---\n# Dakar Bitcoin Hack\n\nOnline Devpost hackathon hosted by Btrust. Goal: tools built on Bitcoin, Lightning, Nostr and AI that improve life in Senegal and Africa.\n\n## Key facts (Search-summary)\n- Deadline: November 20, 2026, 3:00 PM EST.\n- Prizes: $900 in BTC total. 1st $500, 2nd $250, 3rd $150.\n- Eligibility: reported as **students only**, no companies. Verify on the Devpost page.\n- Must submit: presentation (text or video), a prototype/MVP/PoC, and at least a Bitcoin/Lightning wallet integration.\n- Projects are expected to be open source and built in public.\n\n## Judging focus\nUsefulness and local impact is the stressed criterion. See [[past-winners]] for what scored well.\n\n## Relevance\nShapes the scope of [[tontinesats]]: two weeks of build time, open-source code, and a working Lightning flow.\n",
+        "backlinks": [
+          "article:differentiators",
+          "article:risks-and-open-questions",
+          "article:tontinesats"
+        ]
+      }
+    },
+    {
+      "id": "article:diaspora-remittances",
+      "type": "article",
+      "name": "Diaspora Remittances",
+      "filePath": "diaspora-remittances.md",
+      "summary": "- Global average remittance cost: about 6.3%. - Sub-Saharan Africa: the most expensive region, above 8%. - France to Senegal corridor: roughly 3-5%, lower because of competition. Check exact figure...",
+      "tags": [
+        "problem space"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "risks-and-open-questions",
+          "tontine",
+          "differentiators",
+          "tontinesats"
+        ],
+        "category": "Problem Space",
+        "content": "---\ntype: data\nstatus: search-summary\n---\n# Diaspora Remittances\n\n## Costs (Search-summary)\n- Global average remittance cost: about 6.3%.\n- Sub-Saharan Africa: the most expensive region, above 8%.\n- France to Senegal corridor: roughly 3-5%, lower because of competition. Check exact figures at remittanceprices.worldbank.org.\n\n## Diaspora tontines (Search-summary)\n- Senegalese migrants, especially women, run tontines in France, sometimes with contributions of hundreds of euros per cycle (UvA, OpenEdition).\n- Digital rails let diaspora members fund cycles back home.\n\n## Unknown\nHow many Dakar tontines include members abroad. This number decides how strong the cross-border pitch is. See [[risks-and-open-questions]].\n\n## Related\n[[tontine]], [[differentiators]], [[tontinesats]]\n",
+        "backlinks": [
+          "article:differentiators",
+          "article:risks-and-open-questions",
+          "article:senegal-financial-inclusion",
+          "article:tontine"
+        ]
+      }
+    },
+    {
+      "id": "article:differentiators",
+      "type": "article",
+      "name": "Differentiators",
+      "filePath": "differentiators.md",
+      "summary": "| Difference | Versus | Defensibility | |---|---|---| | Non-custodial, peer-to-peer payouts | [[matontine]] and [[zepargn]] hold funds through regulated partners | High | | Cross-border by default ...",
+      "tags": [
+        "solution design"
+      ],
+      "complexity": "moderate",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "matontine",
+          "zepargn",
+          "diaspora-remittances",
+          "dakar-bitcoin-hack",
+          "technical-building-blocks",
+          "tontinesats",
+          "risks-and-open-questions"
+        ],
+        "category": "Solution Design",
+        "content": "---\ntype: analysis\nstatus: assumption\n---\n# Differentiators\n\n| Difference | Versus | Defensibility |\n|---|---|---|\n| Non-custodial, peer-to-peer payouts | [[matontine]] and [[zepargn]] hold funds through regulated partners | High |\n| Cross-border by default over Lightning | Mobile money is national; diaspora members need a remittance step | Medium (corridor fees are only about 3-5%, see [[diaspora-remittances]]) |\n| Portable reputation on Nostr | Competitors keep credit data in their own database | High in theory; needs a lender who accepts it |\n| Open source, self-hostable | All competitors are closed | Medium; matches [[dakar-bitcoin-hack]] rules |\n\n## Corrections to earlier claims\n- \"Zero intermediaries\" is too strong. A member in France still buys sats with euros, and the beneficiary may convert sats to CFA. Both steps have spreads.\n- \"No licence needed\" is a legal question that was not checked. Do not put it in the pitch.\n- Self-published reputation is fakeable. Each payment record must be co-signed by the person who received it. See [[technical-building-blocks]].\n\n## Related\n[[tontinesats]], [[risks-and-open-questions]]\n",
+        "backlinks": [
+          "article:diaspora-remittances",
+          "article:matontine",
+          "article:past-winners",
+          "article:risks-and-open-questions",
+          "article:technical-building-blocks",
+          "article:tontinesats",
+          "article:zepargn"
+        ]
+      }
+    },
+    {
+      "id": "article:kolonell",
+      "type": "article",
+      "name": "Kolonell",
+      "filePath": "kolonell.md",
+      "summary": "Described in search results as a digital agency in Senegal that builds custom web and mobile tontine software integrated with Wave and Orange Money.",
+      "tags": [
+        "competitors"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "matontine",
+          "risks-and-open-questions"
+        ],
+        "category": "Competitors",
+        "content": "---\ntype: competitor\nstatus: search-summary\n---\n# Kolonell\n\nDescribed in search results as a digital agency in Senegal that builds custom web and mobile tontine software integrated with Wave and Orange Money.\n\n## Uncertainty\nIt is unclear whether Kolonell runs its own consumer tontine product or only builds software for clients. Check kolonell.com before naming it as a competitor in the pitch.\n\n## Related\n[[matontine]], [[risks-and-open-questions]]\n",
+        "backlinks": [
+          "article:matontine",
+          "article:risks-and-open-questions"
+        ]
+      }
+    },
+    {
+      "id": "article:matontine",
+      "type": "article",
+      "name": "MaTontine",
+      "filePath": "matontine.md",
+      "summary": "Fintech that digitizes tontines in Senegal and West Africa, via smartphone app or SMS.",
+      "tags": [
+        "competitors"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "tontinesats",
+          "zepargn",
+          "kolonell",
+          "differentiators"
+        ],
+        "category": "Competitors",
+        "content": "---\ntype: competitor\nstatus: search-summary\n---\n# MaTontine\n\nFintech that digitizes tontines in Senegal and West Africa, via smartphone app or SMS.\n\n## How it works (Search-summary)\n- Custody through regulated partners such as the microfinance institution COFINA, under BCEAO rules.\n- Contributions and payouts over mobile money (Orange Money and others).\n- Free for members. Revenue from commissions paid by partners (lenders, insurers) who use its credit-scoring data.\n- Builds credit scores from saving behaviour; the data stays in its own platform.\n\n## Gaps for [[tontinesats]]\n- Cross-border members likely need a separate remittance step first (not confirmed).\n- Reputation data is not portable.\n- Closed source.\n\n## Related\n[[zepargn]], [[kolonell]], [[differentiators]]\n",
+        "backlinks": [
+          "article:differentiators",
+          "article:kolonell",
+          "article:risks-and-open-questions",
+          "article:tontine",
+          "article:zepargn"
+        ]
+      }
+    },
+    {
+      "id": "article:past-winners",
+      "type": "article",
+      "name": "Past Winners",
+      "filePath": "past-winners.md",
+      "summary": "Rankings come from search summaries and need checking on the Devpost page.",
+      "tags": [
+        "hackathon"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "senegal-financial-inclusion",
+          "tontinesats",
+          "differentiators"
+        ],
+        "category": "Hackathon",
+        "content": "---\ntype: analysis\nstatus: search-summary\n---\n# Past Winners\n\nRankings come from search summaries and need checking on the Devpost page.\n\n| Place | Project | Concept |\n|---|---|---|\n| 1st | GandalNexus | BitQuest (gamified learning) and BitLab (testnet sandbox) |\n| 2nd | PaySats | Wallet bridging Lightning with Wave and Orange Money, plus savings vaults |\n| Finalist | BitTravel | Intercity bus tickets paid via Lightning or mobile money |\n\n## Pattern\nWinners solved everyday local friction and connected to how people already pay (mobile money). See [[senegal-financial-inclusion]].\n\n## Implication\nPaySats already covers the mobile money bridge, so [[tontinesats]] should not compete on that. It should compete on group savings, see [[differentiators]].\n",
+        "backlinks": [
+          "article:dakar-bitcoin-hack",
+          "article:risks-and-open-questions",
+          "article:senegal-financial-inclusion"
+        ]
+      }
+    },
+    {
+      "id": "article:risks-and-open-questions",
+      "type": "article",
+      "name": "Risks and Open Questions",
+      "filePath": "risks-and-open-questions.md",
+      "summary": "- Hackathon eligibility (students only) and winner rankings. See [[dakar-bitcoin-hack]] and [[past-winners]]. - The 90% / 64% participant figures in [[tontine]]. - Share of tontines with diaspora m...",
+      "tags": [
+        "risks"
+      ],
+      "complexity": "moderate",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "dakar-bitcoin-hack",
+          "past-winners",
+          "tontine",
+          "diaspora-remittances",
+          "matontine",
+          "kolonell",
+          "tontinesats",
+          "differentiators"
+        ],
+        "category": "Risks",
+        "content": "---\ntype: risk\nstatus: verified-as-open\n---\n# Risks and Open Questions\n\n## Unverified facts\n- Hackathon eligibility (students only) and winner rankings. See [[dakar-bitcoin-hack]] and [[past-winners]].\n- The 90% / 64% participant figures in [[tontine]].\n- Share of tontines with diaspora members. See [[diaspora-remittances]].\n- Whether [[matontine]] already supports cross-border members.\n- What [[kolonell]] actually sells.\n\n## Product risks\n- **Adoption.** Groups already trust each other; the tool must save the organizer real work.\n- **Wallet onboarding.** Most target users have Wave, not a Lightning wallet. A demo needs a hosted wallet or a mobile money bridge.\n- **Missed payments.** Non-custodial design means the app cannot force payment; it can only remind and record.\n- **Regulation.** BCEAO rules on payment services were not reviewed.\n- **Reputation value.** Portable records only matter if a lender accepts them.\n\n## Related\n[[tontinesats]], [[differentiators]]\n",
+        "backlinks": [
+          "article:diaspora-remittances",
+          "article:differentiators",
+          "article:kolonell",
+          "article:technical-building-blocks",
+          "article:tontine",
+          "article:tontinesats"
+        ]
+      }
+    },
+    {
+      "id": "article:senegal-financial-inclusion",
+      "type": "article",
+      "name": "Senegal Financial Inclusion",
+      "filePath": "senegal-financial-inclusion.md",
+      "summary": "- 56% of adults owned an account (financial institution or mobile money), up from about 15% in 2014. - Across WAEMU, roughly 75% of account owners use mobile money. - Senegal is above the WAEMU ave...",
+      "tags": [
+        "problem space"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "diaspora-remittances",
+          "tontine",
+          "past-winners"
+        ],
+        "category": "Problem Space",
+        "content": "---\ntype: data\nstatus: search-summary\n---\n# Senegal Financial Inclusion\n\n## Global Findex 2021 (Search-summary)\n- 56% of adults owned an account (financial institution or mobile money), up from about 15% in 2014.\n- Across WAEMU, roughly 75% of account owners use mobile money.\n- Senegal is above the WAEMU average (about 41%).\n\n## Implication\nMobile money (Wave, Orange Money) is the default way to pay. Inside Senegal, Bitcoin does not beat Wave on cost or familiarity. The case for Lightning is cross-border, see [[diaspora-remittances]].\n\n## Related\n[[tontine]], [[past-winners]]\n",
+        "backlinks": [
+          "article:past-winners"
+        ]
+      }
+    },
+    {
+      "id": "article:technical-building-blocks",
+      "type": "article",
+      "name": "Technical Building Blocks",
+      "filePath": "technical-building-blocks.md",
+      "summary": "| Block | Role in [[tontinesats]] | |---|---| | Lightning Network | Fast, low-fee payments from each member to the round's beneficiary | | NWC (Nostr Wallet Connect, NIP-47) | Members authorise the...",
+      "tags": [
+        "solution design"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "tontinesats",
+          "differentiators",
+          "risks-and-open-questions"
+        ],
+        "category": "Solution Design",
+        "content": "---\ntype: technology\nstatus: assumption\n---\n# Technical Building Blocks\n\n| Block | Role in [[tontinesats]] |\n|---|---|\n| Lightning Network | Fast, low-fee payments from each member to the round's beneficiary |\n| NWC (Nostr Wallet Connect, NIP-47) | Members authorise the app to pay scheduled invoices from their own wallet, with a spending budget |\n| Nostr identity (npub) | Login without email or phone; owner of the reputation record |\n| Signed receipt events | Beneficiary signs \"I received X from member Y in round N\"; prevents fake self-reported history |\n| LNbits | Hosted wallets for demo users who have no Lightning wallet yet |\n| CFA/BTC price feed | Converts the CFA contribution into sats at payment time |\n\n## Payment flow\n1. Round opens; the app asks the beneficiary's wallet for one invoice per member.\n2. Each member's NWC connection pays its invoice, or the member pays by QR.\n3. On settlement, the beneficiary's client publishes a signed receipt.\n4. The app marks the round complete when every receipt exists.\n\n## Related\n[[differentiators]], [[risks-and-open-questions]]\n",
+        "backlinks": [
+          "article:differentiators",
+          "article:tontinesats"
+        ]
+      }
+    },
+    {
+      "id": "article:tontine",
+      "type": "article",
+      "name": "Tontine",
+      "filePath": "tontine.md",
+      "summary": "A rotating savings and credit association (ROSCA). Members pay a fixed amount each period; one member takes the whole pot each round until everyone has received it once. Wolof names: *natt*, *tegg*.",
+      "tags": [
+        "problem space"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "tontinesats",
+          "risks-and-open-questions",
+          "diaspora-remittances",
+          "matontine"
+        ],
+        "category": "Problem Space",
+        "content": "---\ntype: concept\nstatus: search-summary\n---\n# Tontine\n\nA rotating savings and credit association (ROSCA). Members pay a fixed amount each period; one member takes the whole pot each round until everyone has received it once. Wolof names: *natt*, *tegg*.\n\n## Why it persists (Search-summary)\n- Fills the gap left by formal banking.\n- Works as a zero-interest loan for whoever receives the pot early.\n- Default rates stay very low because of social collateral, peer pressure and reputation, without legal enforcement (RePEc, Cairn).\n- Participants are mostly economically active: about 90% wage earners and/or 64% in the informal sector, per one study (Emerald). Check against the original paper before citing.\n- Women are heavy users, for trade financing and social security.\n\n## Design lesson\nTrust already exists inside the group. Software must not replace it; it should remove friction around it. See [[tontinesats]] and [[risks-and-open-questions]].\n\n## Related\n[[diaspora-remittances]], [[matontine]]\n",
+        "backlinks": [
+          "article:diaspora-remittances",
+          "article:risks-and-open-questions",
+          "article:senegal-financial-inclusion",
+          "article:tontinesats"
+        ]
+      }
+    },
+    {
+      "id": "article:tontinesats",
+      "type": "article",
+      "name": "TontineSats",
+      "filePath": "tontinesats.md",
+      "summary": "A tontine you can join from anywhere, that never holds your money, and where your payment record belongs to you.",
+      "tags": [
+        "solution design"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "tontine",
+          "differentiators",
+          "technical-building-blocks",
+          "risks-and-open-questions",
+          "dakar-bitcoin-hack"
+        ],
+        "category": "Solution Design",
+        "content": "---\ntype: product\nstatus: assumption\n---\n# TontineSats\n\n## One-line pitch\nA tontine you can join from anywhere, that never holds your money, and where your payment record belongs to you.\n\n## Core design decisions\n1. **Non-custodial.** Each round, members pay that round's beneficiary directly. The app tracks, reminds and verifies.\n2. **CFA-denominated.** Members see \"10,000 CFA\". Lightning is the rail underneath; the beneficiary receives funds within minutes, so price exposure is short.\n3. **Organizer-first.** The treasurer adopts the tool and brings the group. Members do not need to understand Bitcoin.\n4. **Not an investment product.** Framed as a record-keeping and payment tool for an existing group.\n\n## Primary personas (Assumption)\n- Organizer: a woman market trader in Dakar who runs a circle of 5-15 people.\n- Diaspora member: a Senegalese worker in France paying into a home circle.\n\n## Related\n[[tontine]], [[differentiators]], [[technical-building-blocks]], [[risks-and-open-questions]], [[dakar-bitcoin-hack]]\n",
+        "backlinks": [
+          "article:dakar-bitcoin-hack",
+          "article:diaspora-remittances",
+          "article:differentiators",
+          "article:matontine",
+          "article:past-winners",
+          "article:risks-and-open-questions",
+          "article:technical-building-blocks",
+          "article:tontine"
+        ]
+      }
+    },
+    {
+      "id": "article:zepargn",
+      "type": "article",
+      "name": "Zepargn",
+      "filePath": "zepargn.md",
+      "summary": "Consumer savings app in the WAEMU zone (mainly Benin), by Digital Elevate SAS.",
+      "tags": [
+        "competitors"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "matontine",
+          "differentiators"
+        ],
+        "category": "Competitors",
+        "content": "---\ntype: competitor\nstatus: search-summary\n---\n# Zepargn\n\nConsumer savings app in the WAEMU zone (mainly Benin), by Digital Elevate SAS.\n\n## Features (Search-summary)\n- Group tontines, personal goals, locked deposits (Z-lock), microcredit (Z-flex).\n- Mobile money gateways: MTN MoMo, Celtis, Kkiapay.\n- Funds managed with AVM, a licensed decentralized financial institution (SFD) regulated by BCEAO.\n- Free app; some transaction fees; 5% capital penalty plus lost interest on early Z-lock withdrawal.\n\n## Relevance\nMainly Benin, so a weaker direct competitor in Senegal.\n\n## Related\n[[matontine]], [[differentiators]]\n",
+        "backlinks": [
+          "article:differentiators",
+          "article:matontine"
+        ]
+      }
+    },
+    {
+      "id": "topic:hackathon",
+      "type": "topic",
+      "name": "Hackathon",
+      "summary": "Category from index: Hackathon (2 articles)",
+      "tags": [
+        "category"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "topic:problem-space",
+      "type": "topic",
+      "name": "Problem Space",
+      "summary": "Category from index: Problem Space (3 articles)",
+      "tags": [
+        "category"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "topic:competitors",
+      "type": "topic",
+      "name": "Competitors",
+      "summary": "Category from index: Competitors (3 articles)",
+      "tags": [
+        "category"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "topic:solution-design",
+      "type": "topic",
+      "name": "Solution Design",
+      "summary": "Category from index: Solution Design (3 articles)",
+      "tags": [
+        "category"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "topic:risks",
+      "type": "topic",
+      "name": "Risks",
+      "summary": "Category from index: Risks (1 articles)",
+      "tags": [
+        "category"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "source:sources",
+      "type": "source",
+      "name": "sources.md",
+      "filePath": "raw\\sources.md",
+      "summary": "Raw source (.md, 1 KB)",
+      "tags": [
+        "raw",
+        "md"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:btrust",
+      "type": "entity",
+      "name": "Btrust",
+      "summary": "Non-profit hosting the Dakar Bitcoin Hack and funding the BTC prize pool.",
+      "tags": [
+        "organizer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:wave",
+      "type": "entity",
+      "name": "Wave",
+      "summary": "Dominant mobile money app in Senegal; cheap domestic transfers.",
+      "tags": [
+        "mobile-money"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:orange-money",
+      "type": "entity",
+      "name": "Orange Money",
+      "summary": "Telecom-run mobile money service across West Africa.",
+      "tags": [
+        "mobile-money"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:bceao",
+      "type": "entity",
+      "name": "BCEAO",
+      "summary": "Central Bank of West African States; regulates payment and savings services in WAEMU.",
+      "tags": [
+        "regulator"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:cofina",
+      "type": "entity",
+      "name": "COFINA",
+      "summary": "Microfinance institution reported as a MaTontine custody and lending partner.",
+      "tags": [
+        "microfinance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:nwc",
+      "type": "entity",
+      "name": "Nostr Wallet Connect (NIP-47)",
+      "summary": "Protocol letting an app request payments from a user's own Lightning wallet within a budget.",
+      "tags": [
+        "nostr",
+        "lightning"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:paysats",
+      "type": "entity",
+      "name": "PaySats",
+      "summary": "2nd-place project bridging Lightning with Wave and Orange Money.",
+      "tags": [
+        "past-winner"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:fee-regional-8pct",
+      "type": "claim",
+      "name": "Remittances to Africa cost 7-8%",
+      "summary": "Sub-Saharan Africa regional average; initially used for the France to Senegal pitch.",
+      "tags": [
+        "remittance",
+        "superseded"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:fee-corridor-3-5pct",
+      "type": "claim",
+      "name": "France to Senegal costs about 3-5%",
+      "summary": "Corridor-specific estimate from search summaries; weakens the cross-border savings argument.",
+      "tags": [
+        "remittance",
+        "search-summary"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:social-collateral",
+      "type": "claim",
+      "name": "Tontine defaults stay low through social collateral",
+      "summary": "Peer pressure and reputation enforce payment without legal contracts.",
+      "tags": [
+        "tontine",
+        "search-summary"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:self-signed-reputation-fakeable",
+      "type": "claim",
+      "name": "Self-published reputation can be faked",
+      "summary": "Payment records need a co-signature from the recipient to be credible.",
+      "tags": [
+        "design",
+        "nostr"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:non-custodial-no-pool",
+      "type": "claim",
+      "name": "The app never holds a pool",
+      "summary": "Members pay the round's beneficiary directly; removes custody and theft risk.",
+      "tags": [
+        "design"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "article:dakar-bitcoin-hack",
+      "target": "article:past-winners",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:dakar-bitcoin-hack",
+      "target": "article:tontinesats",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:diaspora-remittances",
+      "target": "article:risks-and-open-questions",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:diaspora-remittances",
+      "target": "article:tontine",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:diaspora-remittances",
+      "target": "article:differentiators",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:diaspora-remittances",
+      "target": "article:tontinesats",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:differentiators",
+      "target": "article:matontine",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:differentiators",
+      "target": "article:zepargn",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:differentiators",
+      "target": "article:diaspora-remittances",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:differentiators",
+      "target": "article:dakar-bitcoin-hack",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:differentiators",
+      "target": "article:technical-building-blocks",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:differentiators",
+      "target": "article:tontinesats",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:differentiators",
+      "target": "article:risks-and-open-questions",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:kolonell",
+      "target": "article:matontine",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:kolonell",
+      "target": "article:risks-and-open-questions",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:matontine",
+      "target": "article:tontinesats",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:matontine",
+      "target": "article:zepargn",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:matontine",
+      "target": "article:kolonell",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:matontine",
+      "target": "article:differentiators",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:past-winners",
+      "target": "article:senegal-financial-inclusion",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:past-winners",
+      "target": "article:tontinesats",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:past-winners",
+      "target": "article:differentiators",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:risks-and-open-questions",
+      "target": "article:dakar-bitcoin-hack",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:risks-and-open-questions",
+      "target": "article:past-winners",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:risks-and-open-questions",
+      "target": "article:tontine",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:risks-and-open-questions",
+      "target": "article:diaspora-remittances",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:risks-and-open-questions",
+      "target": "article:matontine",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:risks-and-open-questions",
+      "target": "article:kolonell",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:risks-and-open-questions",
+      "target": "article:tontinesats",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:risks-and-open-questions",
+      "target": "article:differentiators",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:senegal-financial-inclusion",
+      "target": "article:diaspora-remittances",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:senegal-financial-inclusion",
+      "target": "article:tontine",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:senegal-financial-inclusion",
+      "target": "article:past-winners",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:technical-building-blocks",
+      "target": "article:tontinesats",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:technical-building-blocks",
+      "target": "article:differentiators",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:technical-building-blocks",
+      "target": "article:risks-and-open-questions",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:tontine",
+      "target": "article:tontinesats",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:tontine",
+      "target": "article:risks-and-open-questions",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:tontine",
+      "target": "article:diaspora-remittances",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:tontine",
+      "target": "article:matontine",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:tontinesats",
+      "target": "article:tontine",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:tontinesats",
+      "target": "article:differentiators",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:tontinesats",
+      "target": "article:technical-building-blocks",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:tontinesats",
+      "target": "article:risks-and-open-questions",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:tontinesats",
+      "target": "article:dakar-bitcoin-hack",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:zepargn",
+      "target": "article:matontine",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:zepargn",
+      "target": "article:differentiators",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:dakar-bitcoin-hack",
+      "target": "topic:hackathon",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:past-winners",
+      "target": "topic:hackathon",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:tontine",
+      "target": "topic:problem-space",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:senegal-financial-inclusion",
+      "target": "topic:problem-space",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:diaspora-remittances",
+      "target": "topic:problem-space",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:matontine",
+      "target": "topic:competitors",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:zepargn",
+      "target": "topic:competitors",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:kolonell",
+      "target": "topic:competitors",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:tontinesats",
+      "target": "topic:solution-design",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:differentiators",
+      "target": "topic:solution-design",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:technical-building-blocks",
+      "target": "topic:solution-design",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:risks-and-open-questions",
+      "target": "topic:risks",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:dakar-bitcoin-hack",
+      "target": "entity:btrust",
+      "type": "authored_by",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "article:past-winners",
+      "target": "entity:paysats",
+      "type": "exemplifies",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "entity:paysats",
+      "target": "entity:wave",
+      "type": "depends_on",
+      "weight": 0.7,
+      "direction": "forward"
+    },
+    {
+      "source": "entity:paysats",
+      "target": "entity:orange-money",
+      "type": "depends_on",
+      "weight": 0.7,
+      "direction": "forward"
+    },
+    {
+      "source": "article:senegal-financial-inclusion",
+      "target": "entity:wave",
+      "type": "cites",
+      "weight": 0.6,
+      "direction": "forward"
+    },
+    {
+      "source": "article:senegal-financial-inclusion",
+      "target": "entity:orange-money",
+      "type": "cites",
+      "weight": 0.6,
+      "direction": "forward"
+    },
+    {
+      "source": "article:matontine",
+      "target": "entity:cofina",
+      "type": "depends_on",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "article:matontine",
+      "target": "entity:bceao",
+      "type": "related",
+      "weight": 0.6,
+      "direction": "forward"
+    },
+    {
+      "source": "article:zepargn",
+      "target": "entity:bceao",
+      "type": "related",
+      "weight": 0.6,
+      "direction": "forward"
+    },
+    {
+      "source": "article:kolonell",
+      "target": "entity:wave",
+      "type": "depends_on",
+      "weight": 0.6,
+      "direction": "forward"
+    },
+    {
+      "source": "article:risks-and-open-questions",
+      "target": "entity:bceao",
+      "type": "related",
+      "weight": 0.5,
+      "direction": "forward"
+    },
+    {
+      "source": "article:technical-building-blocks",
+      "target": "entity:nwc",
+      "type": "depends_on",
+      "weight": 0.9,
+      "direction": "forward"
+    },
+    {
+      "source": "article:diaspora-remittances",
+      "target": "claim:fee-corridor-3-5pct",
+      "type": "cites",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "claim:fee-corridor-3-5pct",
+      "target": "claim:fee-regional-8pct",
+      "type": "contradicts",
+      "weight": 0.9,
+      "direction": "forward"
+    },
+    {
+      "source": "article:tontine",
+      "target": "claim:social-collateral",
+      "type": "cites",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "claim:social-collateral",
+      "target": "article:tontinesats",
+      "type": "builds_on",
+      "weight": 0.6,
+      "direction": "forward"
+    },
+    {
+      "source": "article:differentiators",
+      "target": "claim:self-signed-reputation-fakeable",
+      "type": "cites",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "article:tontinesats",
+      "target": "claim:non-custodial-no-pool",
+      "type": "cites",
+      "weight": 0.9,
+      "direction": "forward"
+    },
+    {
+      "source": "claim:non-custodial-no-pool",
+      "target": "article:matontine",
+      "type": "contradicts",
+      "weight": 0.6,
+      "direction": "forward"
+    },
+    {
+      "source": "article:tontinesats",
+      "target": "entity:paysats",
+      "type": "similar_to",
+      "weight": 0.3,
+      "direction": "forward"
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:hackathon",
+      "name": "Hackathon",
+      "description": "Hackathon (5 nodes)",
+      "nodeIds": [
+        "article:dakar-bitcoin-hack",
+        "article:past-winners",
+        "topic:hackathon",
+        "entity:btrust",
+        "entity:paysats"
+      ]
+    },
+    {
+      "id": "layer:problem-space",
+      "name": "Problem Space",
+      "description": "Problem Space (8 nodes)",
+      "nodeIds": [
+        "article:tontine",
+        "article:senegal-financial-inclusion",
+        "article:diaspora-remittances",
+        "topic:problem-space",
+        "entity:wave",
+        "entity:orange-money",
+        "claim:fee-corridor-3-5pct",
+        "claim:social-collateral"
+      ]
+    },
+    {
+      "id": "layer:competitors",
+      "name": "Competitors",
+      "description": "Competitors (6 nodes)",
+      "nodeIds": [
+        "article:matontine",
+        "article:zepargn",
+        "article:kolonell",
+        "topic:competitors",
+        "entity:cofina",
+        "entity:bceao"
+      ]
+    },
+    {
+      "id": "layer:solution-design",
+      "name": "Solution Design",
+      "description": "Solution Design (7 nodes)",
+      "nodeIds": [
+        "article:tontinesats",
+        "article:differentiators",
+        "article:technical-building-blocks",
+        "topic:solution-design",
+        "entity:nwc",
+        "claim:self-signed-reputation-fakeable",
+        "claim:non-custodial-no-pool"
+      ]
+    },
+    {
+      "id": "layer:risks",
+      "name": "Risks",
+      "description": "Risks (2 nodes)",
+      "nodeIds": [
+        "article:risks-and-open-questions",
+        "topic:risks"
+      ]
+    },
+    {
+      "id": "layer:other",
+      "name": "Other",
+      "description": "Uncategorized nodes (2)",
+      "nodeIds": [
+        "source:sources",
+        "claim:fee-regional-8pct"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Hackathon",
+      "description": "Explore the Hackathon section (2 articles)",
+      "nodeIds": [
+        "article:dakar-bitcoin-hack",
+        "article:past-winners"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Problem Space",
+      "description": "Explore the Problem Space section (3 articles)",
+      "nodeIds": [
+        "article:tontine",
+        "article:senegal-financial-inclusion",
+        "article:diaspora-remittances"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Competitors",
+      "description": "Explore the Competitors section (3 articles)",
+      "nodeIds": [
+        "article:matontine",
+        "article:zepargn",
+        "article:kolonell"
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Solution Design",
+      "description": "Explore the Solution Design section (3 articles)",
+      "nodeIds": [
+        "article:tontinesats",
+        "article:differentiators",
+        "article:technical-building-blocks"
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Risks",
+      "description": "Explore the Risks section (1 articles)",
+      "nodeIds": [
+        "article:risks-and-open-questions"
+      ]
+    }
+  ]
+}

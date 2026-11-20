@@ -1,0 +1,3 @@
+file 'D:/aku ngoding/dakarbitcoin/video/scene1-tontine-intro.mp4'
+file 'D:/aku ngoding/dakarbitcoin/video/tmp/zoomed-part-a.mp4'
+file 'D:/aku ngoding/dakarbitcoin/video/tmp/zoomed-part-b.mp4'

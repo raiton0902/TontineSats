@@ -1,0 +1,2711 @@
+[
+  {
+    "idx": 0,
+    "word": "Across",
+    "start": 0.09,
+    "end": 0.3,
+    "start_ms": 90,
+    "end_ms": 300,
+    "prob": 0.757
+  },
+  {
+    "idx": 1,
+    "word": "West",
+    "start": 0.3,
+    "end": 0.8,
+    "start_ms": 300,
+    "end_ms": 800,
+    "prob": 0.952
+  },
+  {
+    "idx": 2,
+    "word": "Africa,",
+    "start": 0.8,
+    "end": 1.38,
+    "start_ms": 800,
+    "end_ms": 1380,
+    "prob": 0.994
+  },
+  {
+    "idx": 3,
+    "word": "millions",
+    "start": 1.54,
+    "end": 1.82,
+    "start_ms": 1540,
+    "end_ms": 1820,
+    "prob": 0.997
+  },
+  {
+    "idx": 4,
+    "word": "of",
+    "start": 1.82,
+    "end": 2.05,
+    "start_ms": 1820,
+    "end_ms": 2050,
+    "prob": 0.998
+  },
+  {
+    "idx": 5,
+    "word": "people",
+    "start": 2.1,
+    "end": 2.3,
+    "start_ms": 2100,
+    "end_ms": 2300,
+    "prob": 0.996
+  },
+  {
+    "idx": 6,
+    "word": "saved",
+    "start": 2.3,
+    "end": 2.66,
+    "start_ms": 2300,
+    "end_ms": 2660,
+    "prob": 0.777
+  },
+  {
+    "idx": 7,
+    "word": "together",
+    "start": 2.66,
+    "end": 3.04,
+    "start_ms": 2660,
+    "end_ms": 3040,
+    "prob": 0.996
+  },
+  {
+    "idx": 8,
+    "word": "through",
+    "start": 3.04,
+    "end": 3.52,
+    "start_ms": 3040,
+    "end_ms": 3520,
+    "prob": 0.975
+  },
+  {
+    "idx": 9,
+    "word": "Tontine.",
+    "start": 3.52,
+    "end": 4.52,
+    "start_ms": 3520,
+    "end_ms": 4520,
+    "prob": 0.371
+  },
+  {
+    "idx": 10,
+    "word": "Trusted",
+    "start": 4.96,
+    "end": 5.36,
+    "start_ms": 4960,
+    "end_ms": 5360,
+    "prob": 0.929
+  },
+  {
+    "idx": 11,
+    "word": "circles",
+    "start": 5.36,
+    "end": 5.82,
+    "start_ms": 5360,
+    "end_ms": 5820,
+    "prob": 0.979
+  },
+  {
+    "idx": 12,
+    "word": "where",
+    "start": 5.82,
+    "end": 6.24,
+    "start_ms": 5820,
+    "end_ms": 6240,
+    "prob": 0.851
+  },
+  {
+    "idx": 13,
+    "word": "everyone",
+    "start": 6.24,
+    "end": 6.66,
+    "start_ms": 6240,
+    "end_ms": 6660,
+    "prob": 0.986
+  },
+  {
+    "idx": 14,
+    "word": "contributes",
+    "start": 6.66,
+    "end": 7.2,
+    "start_ms": 6660,
+    "end_ms": 7200,
+    "prob": 0.996
+  },
+  {
+    "idx": 15,
+    "word": "each",
+    "start": 7.2,
+    "end": 7.7,
+    "start_ms": 7200,
+    "end_ms": 7700,
+    "prob": 0.972
+  },
+  {
+    "idx": 16,
+    "word": "month,",
+    "start": 7.7,
+    "end": 8.08,
+    "start_ms": 7700,
+    "end_ms": 8080,
+    "prob": 0.999
+  },
+  {
+    "idx": 17,
+    "word": "and",
+    "start": 8.59,
+    "end": 8.7,
+    "start_ms": 8590,
+    "end_ms": 8700,
+    "prob": 0.991
+  },
+  {
+    "idx": 18,
+    "word": "one",
+    "start": 8.7,
+    "end": 8.96,
+    "start_ms": 8700,
+    "end_ms": 8960,
+    "prob": 0.996
+  },
+  {
+    "idx": 19,
+    "word": "member",
+    "start": 8.96,
+    "end": 9.26,
+    "start_ms": 8960,
+    "end_ms": 9260,
+    "prob": 0.996
+  },
+  {
+    "idx": 20,
+    "word": "takes",
+    "start": 9.26,
+    "end": 9.56,
+    "start_ms": 9260,
+    "end_ms": 9560,
+    "prob": 0.996
+  },
+  {
+    "idx": 21,
+    "word": "home",
+    "start": 9.56,
+    "end": 9.8,
+    "start_ms": 9560,
+    "end_ms": 9800,
+    "prob": 0.997
+  },
+  {
+    "idx": 22,
+    "word": "the",
+    "start": 9.8,
+    "end": 9.93,
+    "start_ms": 9800,
+    "end_ms": 9930,
+    "prob": 0.998
+  },
+  {
+    "idx": 23,
+    "word": "full",
+    "start": 10.0,
+    "end": 10.14,
+    "start_ms": 10000,
+    "end_ms": 10140,
+    "prob": 0.997
+  },
+  {
+    "idx": 24,
+    "word": "pot.",
+    "start": 10.22,
+    "end": 10.47,
+    "start_ms": 10220,
+    "end_ms": 10470,
+    "prob": 0.992
+  },
+  {
+    "idx": 25,
+    "word": "But",
+    "start": 11.25,
+    "end": 11.36,
+    "start_ms": 11250,
+    "end_ms": 11360,
+    "prob": 0.993
+  },
+  {
+    "idx": 26,
+    "word": "managing",
+    "start": 11.37,
+    "end": 11.78,
+    "start_ms": 11370,
+    "end_ms": 11780,
+    "prob": 0.972
+  },
+  {
+    "idx": 27,
+    "word": "cash",
+    "start": 11.78,
+    "end": 12.22,
+    "start_ms": 11780,
+    "end_ms": 12220,
+    "prob": 0.999
+  },
+  {
+    "idx": 28,
+    "word": "across",
+    "start": 12.22,
+    "end": 12.5,
+    "start_ms": 12220,
+    "end_ms": 12500,
+    "prob": 0.995
+  },
+  {
+    "idx": 29,
+    "word": "borders,",
+    "start": 12.5,
+    "end": 13.14,
+    "start_ms": 12500,
+    "end_ms": 13140,
+    "prob": 0.983
+  },
+  {
+    "idx": 30,
+    "word": "tracking",
+    "start": 13.68,
+    "end": 14.02,
+    "start_ms": 13680,
+    "end_ms": 14020,
+    "prob": 0.993
+  },
+  {
+    "idx": 31,
+    "word": "who",
+    "start": 14.02,
+    "end": 14.32,
+    "start_ms": 14020,
+    "end_ms": 14320,
+    "prob": 0.985
+  },
+  {
+    "idx": 32,
+    "word": "paid,",
+    "start": 14.39,
+    "end": 14.72,
+    "start_ms": 14390,
+    "end_ms": 14720,
+    "prob": 0.984
+  },
+  {
+    "idx": 33,
+    "word": "and",
+    "start": 15.2,
+    "end": 15.32,
+    "start_ms": 15200,
+    "end_ms": 15320,
+    "prob": 0.998
+  },
+  {
+    "idx": 34,
+    "word": "trusting",
+    "start": 15.32,
+    "end": 15.64,
+    "start_ms": 15320,
+    "end_ms": 15640,
+    "prob": 0.997
+  },
+  {
+    "idx": 35,
+    "word": "a",
+    "start": 15.69,
+    "end": 15.92,
+    "start_ms": 15690,
+    "end_ms": 15920,
+    "prob": 0.997
+  },
+  {
+    "idx": 36,
+    "word": "middleman",
+    "start": 15.92,
+    "end": 16.34,
+    "start_ms": 15920,
+    "end_ms": 16340,
+    "prob": 0.865
+  },
+  {
+    "idx": 37,
+    "word": "to",
+    "start": 16.34,
+    "end": 16.52,
+    "start_ms": 16340,
+    "end_ms": 16520,
+    "prob": 0.999
+  },
+  {
+    "idx": 38,
+    "word": "hold",
+    "start": 16.52,
+    "end": 16.7,
+    "start_ms": 16520,
+    "end_ms": 16700,
+    "prob": 0.999
+  },
+  {
+    "idx": 39,
+    "word": "the",
+    "start": 16.7,
+    "end": 16.82,
+    "start_ms": 16700,
+    "end_ms": 16820,
+    "prob": 0.993
+  },
+  {
+    "idx": 40,
+    "word": "funds",
+    "start": 16.88,
+    "end": 17.1,
+    "start_ms": 16880,
+    "end_ms": 17100,
+    "prob": 0.998
+  },
+  {
+    "idx": 41,
+    "word": "is",
+    "start": 17.1,
+    "end": 17.26,
+    "start_ms": 17100,
+    "end_ms": 17260,
+    "prob": 0.966
+  },
+  {
+    "idx": 42,
+    "word": "hard.",
+    "start": 17.26,
+    "end": 17.6,
+    "start_ms": 17260,
+    "end_ms": 17600,
+    "prob": 0.998
+  },
+  {
+    "idx": 43,
+    "word": "That's",
+    "start": 18.32,
+    "end": 18.54,
+    "start_ms": 18320,
+    "end_ms": 18540,
+    "prob": 0.995
+  },
+  {
+    "idx": 44,
+    "word": "why",
+    "start": 18.57,
+    "end": 18.68,
+    "start_ms": 18570,
+    "end_ms": 18680,
+    "prob": 0.999
+  },
+  {
+    "idx": 45,
+    "word": "we",
+    "start": 18.68,
+    "end": 18.86,
+    "start_ms": 18680,
+    "end_ms": 18860,
+    "prob": 0.998
+  },
+  {
+    "idx": 46,
+    "word": "built",
+    "start": 18.86,
+    "end": 19.12,
+    "start_ms": 18860,
+    "end_ms": 19120,
+    "prob": 0.923
+  },
+  {
+    "idx": 47,
+    "word": "TontineSats.",
+    "start": 19.5,
+    "end": 20.57,
+    "start_ms": 19500,
+    "end_ms": 20570,
+    "prob": 0.73
+  },
+  {
+    "idx": 48,
+    "word": "Here",
+    "start": 21.65,
+    "end": 21.8,
+    "start_ms": 21650,
+    "end_ms": 21800,
+    "prob": 0.992
+  },
+  {
+    "idx": 49,
+    "word": "on",
+    "start": 21.8,
+    "end": 21.94,
+    "start_ms": 21800,
+    "end_ms": 21940,
+    "prob": 0.983
+  },
+  {
+    "idx": 50,
+    "word": "the",
+    "start": 21.94,
+    "end": 22.06,
+    "start_ms": 21940,
+    "end_ms": 22060,
+    "prob": 0.98
+  },
+  {
+    "idx": 51,
+    "word": "landing",
+    "start": 22.06,
+    "end": 22.28,
+    "start_ms": 22060,
+    "end_ms": 22280,
+    "prob": 0.991
+  },
+  {
+    "idx": 52,
+    "word": "page,",
+    "start": 22.28,
+    "end": 22.74,
+    "start_ms": 22280,
+    "end_ms": 22740,
+    "prob": 0.999
+  },
+  {
+    "idx": 53,
+    "word": "everything",
+    "start": 22.86,
+    "end": 23.04,
+    "start_ms": 22860,
+    "end_ms": 23040,
+    "prob": 0.998
+  },
+  {
+    "idx": 54,
+    "word": "Sats",
+    "start": 23.07,
+    "end": 23.48,
+    "start_ms": 23070,
+    "end_ms": 23480,
+    "prob": 0.999
+  },
+  {
+    "idx": 55,
+    "word": "in",
+    "start": 23.48,
+    "end": 23.72,
+    "start_ms": 23480,
+    "end_ms": 23720,
+    "prob": 0.994
+  },
+  {
+    "idx": 56,
+    "word": "CFA",
+    "start": 23.72,
+    "end": 24.28,
+    "start_ms": 23720,
+    "end_ms": 24280,
+    "prob": 0.978
+  },
+  {
+    "idx": 57,
+    "word": "Franks,",
+    "start": 24.28,
+    "end": 24.96,
+    "start_ms": 24280,
+    "end_ms": 24960,
+    "prob": 0.618
+  },
+  {
+    "idx": 58,
+    "word": "with",
+    "start": 25.49,
+    "end": 25.59,
+    "start_ms": 25490,
+    "end_ms": 25590,
+    "prob": 0.997
+  },
+  {
+    "idx": 59,
+    "word": "EUR",
+    "start": 25.62,
+    "end": 26.0,
+    "start_ms": 25620,
+    "end_ms": 26000,
+    "prob": 0.5
+  },
+  {
+    "idx": 60,
+    "word": "and",
+    "start": 26.0,
+    "end": 26.26,
+    "start_ms": 26000,
+    "end_ms": 26260,
+    "prob": 0.957
+  },
+  {
+    "idx": 61,
+    "word": "Bitcoin",
+    "start": 26.26,
+    "end": 26.54,
+    "start_ms": 26260,
+    "end_ms": 26540,
+    "prob": 0.757
+  },
+  {
+    "idx": 62,
+    "word": "Sats",
+    "start": 26.54,
+    "end": 27.12,
+    "start_ms": 26540,
+    "end_ms": 27120,
+    "prob": 0.747
+  },
+  {
+    "idx": 63,
+    "word": "shown",
+    "start": 27.18,
+    "end": 27.66,
+    "start_ms": 27180,
+    "end_ms": 27660,
+    "prob": 0.932
+  },
+  {
+    "idx": 64,
+    "word": "right",
+    "start": 27.66,
+    "end": 27.88,
+    "start_ms": 27660,
+    "end_ms": 27880,
+    "prob": 0.996
+  },
+  {
+    "idx": 65,
+    "word": "underneath.",
+    "start": 27.88,
+    "end": 28.37,
+    "start_ms": 27880,
+    "end_ms": 28370,
+    "prob": 0.994
+  },
+  {
+    "idx": 66,
+    "word": "We",
+    "start": 29.09,
+    "end": 29.16,
+    "start_ms": 29090,
+    "end_ms": 29160,
+    "prob": 0.172
+  },
+  {
+    "idx": 67,
+    "word": "support",
+    "start": 29.16,
+    "end": 29.52,
+    "start_ms": 29160,
+    "end_ms": 29520,
+    "prob": 0.921
+  },
+  {
+    "idx": 68,
+    "word": "French,",
+    "start": 29.52,
+    "end": 30.09,
+    "start_ms": 29520,
+    "end_ms": 30090,
+    "prob": 0.936
+  },
+  {
+    "idx": 69,
+    "word": "English,",
+    "start": 30.55,
+    "end": 30.95,
+    "start_ms": 30550,
+    "end_ms": 30950,
+    "prob": 0.996
+  },
+  {
+    "idx": 70,
+    "word": "and",
+    "start": 31.28,
+    "end": 31.42,
+    "start_ms": 31280,
+    "end_ms": 31420,
+    "prob": 0.996
+  },
+  {
+    "idx": 71,
+    "word": "Wolof.",
+    "start": 31.42,
+    "end": 31.85,
+    "start_ms": 31420,
+    "end_ms": 31850,
+    "prob": 0.634
+  },
+  {
+    "idx": 72,
+    "word": "Let's",
+    "start": 32.63,
+    "end": 32.86,
+    "start_ms": 32630,
+    "end_ms": 32860,
+    "prob": 0.985
+  },
+  {
+    "idx": 73,
+    "word": "switch",
+    "start": 32.86,
+    "end": 33.02,
+    "start_ms": 32860,
+    "end_ms": 33020,
+    "prob": 0.99
+  },
+  {
+    "idx": 74,
+    "word": "to",
+    "start": 33.02,
+    "end": 33.26,
+    "start_ms": 33020,
+    "end_ms": 33260,
+    "prob": 0.998
+  },
+  {
+    "idx": 75,
+    "word": "English",
+    "start": 33.26,
+    "end": 33.56,
+    "start_ms": 33260,
+    "end_ms": 33560,
+    "prob": 0.995
+  },
+  {
+    "idx": 76,
+    "word": "and",
+    "start": 33.56,
+    "end": 33.96,
+    "start_ms": 33560,
+    "end_ms": 33960,
+    "prob": 0.927
+  },
+  {
+    "idx": 77,
+    "word": "jump",
+    "start": 33.96,
+    "end": 34.2,
+    "start_ms": 33960,
+    "end_ms": 34200,
+    "prob": 0.997
+  },
+  {
+    "idx": 78,
+    "word": "straight",
+    "start": 34.2,
+    "end": 34.54,
+    "start_ms": 34200,
+    "end_ms": 34540,
+    "prob": 0.985
+  },
+  {
+    "idx": 79,
+    "word": "into",
+    "start": 34.54,
+    "end": 34.84,
+    "start_ms": 34540,
+    "end_ms": 34840,
+    "prob": 0.995
+  },
+  {
+    "idx": 80,
+    "word": "a",
+    "start": 34.84,
+    "end": 35.08,
+    "start_ms": 34840,
+    "end_ms": 35080,
+    "prob": 0.991
+  },
+  {
+    "idx": 81,
+    "word": "live",
+    "start": 35.08,
+    "end": 35.26,
+    "start_ms": 35080,
+    "end_ms": 35260,
+    "prob": 0.987
+  },
+  {
+    "idx": 82,
+    "word": "demo",
+    "start": 35.26,
+    "end": 35.52,
+    "start_ms": 35260,
+    "end_ms": 35520,
+    "prob": 0.992
+  },
+  {
+    "idx": 83,
+    "word": "circle.",
+    "start": 35.52,
+    "end": 35.96,
+    "start_ms": 35520,
+    "end_ms": 35960,
+    "prob": 0.935
+  },
+  {
+    "idx": 84,
+    "word": "Welcome",
+    "start": 36.54,
+    "end": 37.3,
+    "start_ms": 36540,
+    "end_ms": 37300,
+    "prob": 0.976
+  },
+  {
+    "idx": 85,
+    "word": "to",
+    "start": 37.3,
+    "end": 37.58,
+    "start_ms": 37300,
+    "end_ms": 37580,
+    "prob": 0.995
+  },
+  {
+    "idx": 86,
+    "word": "TontineSats",
+    "start": 38.78,
+    "end": 39.28,
+    "start_ms": 38780,
+    "end_ms": 39280,
+    "prob": 0.438
+  },
+  {
+    "idx": 87,
+    "word": "in",
+    "start": 39.28,
+    "end": 39.72,
+    "start_ms": 39280,
+    "end_ms": 39720,
+    "prob": 0.887
+  },
+  {
+    "idx": 88,
+    "word": "Dakar.",
+    "start": 39.72,
+    "end": 40.3,
+    "start_ms": 39720,
+    "end_ms": 40300,
+    "prob": 0.993
+  },
+  {
+    "idx": 89,
+    "word": "Eight",
+    "start": 40.98,
+    "end": 41.14,
+    "start_ms": 40980,
+    "end_ms": 41140,
+    "prob": 0.806
+  },
+  {
+    "idx": 90,
+    "word": "members",
+    "start": 41.19,
+    "end": 41.48,
+    "start_ms": 41190,
+    "end_ms": 41480,
+    "prob": 0.987
+  },
+  {
+    "idx": 91,
+    "word": "each",
+    "start": 41.48,
+    "end": 41.82,
+    "start_ms": 41480,
+    "end_ms": 41820,
+    "prob": 0.988
+  },
+  {
+    "idx": 92,
+    "word": "contribute",
+    "start": 41.83,
+    "end": 42.34,
+    "start_ms": 41830,
+    "end_ms": 42340,
+    "prob": 0.99
+  },
+  {
+    "idx": 93,
+    "word": "24",
+    "start": 42.34,
+    "end": 42.87,
+    "start_ms": 42340,
+    "end_ms": 42870,
+    "prob": 0.98
+  },
+  {
+    "idx": 94,
+    "word": ",000",
+    "start": 42.91,
+    "end": 43.62,
+    "start_ms": 42910,
+    "end_ms": 43620,
+    "prob": 0.978
+  },
+  {
+    "idx": 95,
+    "word": "CFA",
+    "start": 43.62,
+    "end": 44.18,
+    "start_ms": 43620,
+    "end_ms": 44180,
+    "prob": 0.965
+  },
+  {
+    "idx": 96,
+    "word": "Franks",
+    "start": 44.18,
+    "end": 44.68,
+    "start_ms": 44180,
+    "end_ms": 44680,
+    "prob": 0.512
+  },
+  {
+    "idx": 97,
+    "word": "a",
+    "start": 44.68,
+    "end": 44.8,
+    "start_ms": 44680,
+    "end_ms": 44800,
+    "prob": 0.988
+  },
+  {
+    "idx": 98,
+    "word": "month,",
+    "start": 44.8,
+    "end": 45.05,
+    "start_ms": 44800,
+    "end_ms": 45050,
+    "prob": 0.994
+  },
+  {
+    "idx": 99,
+    "word": "creating",
+    "start": 45.61,
+    "end": 45.92,
+    "start_ms": 45610,
+    "end_ms": 45920,
+    "prob": 0.998
+  },
+  {
+    "idx": 100,
+    "word": "a",
+    "start": 45.92,
+    "end": 46.18,
+    "start_ms": 45920,
+    "end_ms": 46180,
+    "prob": 0.994
+  },
+  {
+    "idx": 101,
+    "word": "192",
+    "start": 46.18,
+    "end": 47.46,
+    "start_ms": 46180,
+    "end_ms": 47460,
+    "prob": 0.988
+  },
+  {
+    "idx": 102,
+    "word": ",000",
+    "start": 47.46,
+    "end": 47.9,
+    "start_ms": 47460,
+    "end_ms": 47900,
+    "prob": 0.993
+  },
+  {
+    "idx": 103,
+    "word": "CFA",
+    "start": 47.9,
+    "end": 48.4,
+    "start_ms": 47900,
+    "end_ms": 48400,
+    "prob": 0.993
+  },
+  {
+    "idx": 104,
+    "word": "pot.",
+    "start": 48.4,
+    "end": 48.82,
+    "start_ms": 48400,
+    "end_ms": 48820,
+    "prob": 0.846
+  },
+  {
+    "idx": 105,
+    "word": "This",
+    "start": 49.72,
+    "end": 49.9,
+    "start_ms": 49720,
+    "end_ms": 49900,
+    "prob": 0.996
+  },
+  {
+    "idx": 106,
+    "word": "month,",
+    "start": 49.91,
+    "end": 50.27,
+    "start_ms": 49910,
+    "end_ms": 50270,
+    "prob": 0.999
+  },
+  {
+    "idx": 107,
+    "word": "round",
+    "start": 50.54,
+    "end": 50.7,
+    "start_ms": 50540,
+    "end_ms": 50700,
+    "prob": 0.839
+  },
+  {
+    "idx": 108,
+    "word": "three",
+    "start": 50.7,
+    "end": 51.02,
+    "start_ms": 50700,
+    "end_ms": 51020,
+    "prob": 0.842
+  },
+  {
+    "idx": 109,
+    "word": "goes",
+    "start": 51.02,
+    "end": 51.26,
+    "start_ms": 51020,
+    "end_ms": 51260,
+    "prob": 0.856
+  },
+  {
+    "idx": 110,
+    "word": "to",
+    "start": 51.26,
+    "end": 51.48,
+    "start_ms": 51260,
+    "end_ms": 51480,
+    "prob": 0.999
+  },
+  {
+    "idx": 111,
+    "word": "Mariama",
+    "start": 51.48,
+    "end": 51.94,
+    "start_ms": 51480,
+    "end_ms": 51940,
+    "prob": 0.551
+  },
+  {
+    "idx": 112,
+    "word": "-Sau.",
+    "start": 51.94,
+    "end": 52.4,
+    "start_ms": 51940,
+    "end_ms": 52400,
+    "prob": 0.417
+  },
+  {
+    "idx": 113,
+    "word": "And",
+    "start": 53.06,
+    "end": 53.14,
+    "start_ms": 53060,
+    "end_ms": 53140,
+    "prob": 0.326
+  },
+  {
+    "idx": 114,
+    "word": "if",
+    "start": 53.14,
+    "end": 53.3,
+    "start_ms": 53140,
+    "end_ms": 53300,
+    "prob": 0.95
+  },
+  {
+    "idx": 115,
+    "word": "you're",
+    "start": 53.3,
+    "end": 53.5,
+    "start_ms": 53300,
+    "end_ms": 53500,
+    "prob": 0.972
+  },
+  {
+    "idx": 116,
+    "word": "in",
+    "start": 53.5,
+    "end": 53.58,
+    "start_ms": 53500,
+    "end_ms": 53580,
+    "prob": 0.996
+  },
+  {
+    "idx": 117,
+    "word": "the",
+    "start": 53.58,
+    "end": 53.68,
+    "start_ms": 53580,
+    "end_ms": 53680,
+    "prob": 0.991
+  },
+  {
+    "idx": 118,
+    "word": "diaspora,",
+    "start": 53.68,
+    "end": 54.46,
+    "start_ms": 53680,
+    "end_ms": 54460,
+    "prob": 0.93
+  },
+  {
+    "idx": 119,
+    "word": "like",
+    "start": 54.98,
+    "end": 55.02,
+    "start_ms": 54980,
+    "end_ms": 55020,
+    "prob": 0.987
+  },
+  {
+    "idx": 120,
+    "word": "Moussa",
+    "start": 55.06,
+    "end": 55.42,
+    "start_ms": 55060,
+    "end_ms": 55420,
+    "prob": 0.61
+  },
+  {
+    "idx": 121,
+    "word": "in",
+    "start": 55.42,
+    "end": 55.56,
+    "start_ms": 55420,
+    "end_ms": 55560,
+    "prob": 0.982
+  },
+  {
+    "idx": 122,
+    "word": "Paris,",
+    "start": 55.56,
+    "end": 55.98,
+    "start_ms": 55560,
+    "end_ms": 55980,
+    "prob": 0.997
+  },
+  {
+    "idx": 123,
+    "word": "switching",
+    "start": 56.56,
+    "end": 56.94,
+    "start_ms": 56560,
+    "end_ms": 56940,
+    "prob": 0.846
+  },
+  {
+    "idx": 124,
+    "word": "your",
+    "start": 56.94,
+    "end": 57.22,
+    "start_ms": 56940,
+    "end_ms": 57220,
+    "prob": 0.997
+  },
+  {
+    "idx": 125,
+    "word": "view",
+    "start": 57.22,
+    "end": 57.5,
+    "start_ms": 57220,
+    "end_ms": 57500,
+    "prob": 0.981
+  },
+  {
+    "idx": 126,
+    "word": "automatically",
+    "start": 57.5,
+    "end": 58.08,
+    "start_ms": 57500,
+    "end_ms": 58080,
+    "prob": 0.997
+  },
+  {
+    "idx": 127,
+    "word": "shows",
+    "start": 58.08,
+    "end": 58.62,
+    "start_ms": 58080,
+    "end_ms": 58620,
+    "prob": 0.996
+  },
+  {
+    "idx": 128,
+    "word": "EUR",
+    "start": 58.62,
+    "end": 59.0,
+    "start_ms": 58620,
+    "end_ms": 59000,
+    "prob": 0.693
+  },
+  {
+    "idx": 129,
+    "word": "alongside",
+    "start": 59.0,
+    "end": 59.46,
+    "start_ms": 59000,
+    "end_ms": 59460,
+    "prob": 0.943
+  },
+  {
+    "idx": 130,
+    "word": "CFA",
+    "start": 59.49,
+    "end": 60.18,
+    "start_ms": 59490,
+    "end_ms": 60180,
+    "prob": 0.981
+  },
+  {
+    "idx": 131,
+    "word": "Franks",
+    "start": 60.18,
+    "end": 60.68,
+    "start_ms": 60180,
+    "end_ms": 60680,
+    "prob": 0.641
+  },
+  {
+    "idx": 132,
+    "word": "and",
+    "start": 60.69,
+    "end": 60.8,
+    "start_ms": 60690,
+    "end_ms": 60800,
+    "prob": 0.868
+  },
+  {
+    "idx": 133,
+    "word": "Sats,",
+    "start": 60.8,
+    "end": 61.17,
+    "start_ms": 60800,
+    "end_ms": 61170,
+    "prob": 0.641
+  },
+  {
+    "idx": 134,
+    "word": "so",
+    "start": 61.69,
+    "end": 61.84,
+    "start_ms": 61690,
+    "end_ms": 61840,
+    "prob": 0.994
+  },
+  {
+    "idx": 135,
+    "word": "everyone",
+    "start": 61.84,
+    "end": 62.14,
+    "start_ms": 61840,
+    "end_ms": 62140,
+    "prob": 0.993
+  },
+  {
+    "idx": 136,
+    "word": "stays",
+    "start": 62.14,
+    "end": 62.54,
+    "start_ms": 62140,
+    "end_ms": 62540,
+    "prob": 0.998
+  },
+  {
+    "idx": 137,
+    "word": "in",
+    "start": 62.54,
+    "end": 62.74,
+    "start_ms": 62540,
+    "end_ms": 62740,
+    "prob": 0.998
+  },
+  {
+    "idx": 138,
+    "word": "sync.",
+    "start": 62.74,
+    "end": 63.1,
+    "start_ms": 62740,
+    "end_ms": 63100,
+    "prob": 0.974
+  },
+  {
+    "idx": 139,
+    "word": "Now",
+    "start": 64.17,
+    "end": 64.32,
+    "start_ms": 64170,
+    "end_ms": 64320,
+    "prob": 0.991
+  },
+  {
+    "idx": 140,
+    "word": "let's",
+    "start": 64.32,
+    "end": 64.58,
+    "start_ms": 64320,
+    "end_ms": 64580,
+    "prob": 0.86
+  },
+  {
+    "idx": 141,
+    "word": "contribute",
+    "start": 64.63,
+    "end": 65.04,
+    "start_ms": 64630,
+    "end_ms": 65040,
+    "prob": 0.995
+  },
+  {
+    "idx": 142,
+    "word": "to",
+    "start": 65.04,
+    "end": 65.32,
+    "start_ms": 65040,
+    "end_ms": 65320,
+    "prob": 0.999
+  },
+  {
+    "idx": 143,
+    "word": "round",
+    "start": 65.32,
+    "end": 65.54,
+    "start_ms": 65320,
+    "end_ms": 65540,
+    "prob": 0.799
+  },
+  {
+    "idx": 144,
+    "word": "three.",
+    "start": 65.54,
+    "end": 66.02,
+    "start_ms": 65540,
+    "end_ms": 66020,
+    "prob": 0.771
+  },
+  {
+    "idx": 145,
+    "word": "Unlike",
+    "start": 66.67,
+    "end": 66.9,
+    "start_ms": 66670,
+    "end_ms": 66900,
+    "prob": 0.993
+  },
+  {
+    "idx": 146,
+    "word": "traditional",
+    "start": 66.9,
+    "end": 67.44,
+    "start_ms": 66900,
+    "end_ms": 67440,
+    "prob": 0.995
+  },
+  {
+    "idx": 147,
+    "word": "apps,",
+    "start": 67.44,
+    "end": 67.96,
+    "start_ms": 67440,
+    "end_ms": 67960,
+    "prob": 0.988
+  },
+  {
+    "idx": 148,
+    "word": "TontineSats",
+    "start": 68.45,
+    "end": 69.46,
+    "start_ms": 68450,
+    "end_ms": 69460,
+    "prob": 0.437
+  },
+  {
+    "idx": 149,
+    "word": "is",
+    "start": 69.46,
+    "end": 69.72,
+    "start_ms": 69460,
+    "end_ms": 69720,
+    "prob": 0.99
+  },
+  {
+    "idx": 150,
+    "word": "completely",
+    "start": 69.73,
+    "end": 70.36,
+    "start_ms": 69730,
+    "end_ms": 70360,
+    "prob": 0.998
+  },
+  {
+    "idx": 151,
+    "word": "non",
+    "start": 70.36,
+    "end": 70.8,
+    "start_ms": 70360,
+    "end_ms": 70800,
+    "prob": 0.989
+  },
+  {
+    "idx": 152,
+    "word": "-custodial.",
+    "start": 70.8,
+    "end": 71.53,
+    "start_ms": 70800,
+    "end_ms": 71530,
+    "prob": 0.939
+  },
+  {
+    "idx": 153,
+    "word": "Our",
+    "start": 72.18,
+    "end": 72.32,
+    "start_ms": 72180,
+    "end_ms": 72320,
+    "prob": 0.998
+  },
+  {
+    "idx": 154,
+    "word": "server",
+    "start": 72.32,
+    "end": 72.7,
+    "start_ms": 72320,
+    "end_ms": 72700,
+    "prob": 0.997
+  },
+  {
+    "idx": 155,
+    "word": "never",
+    "start": 72.7,
+    "end": 73.12,
+    "start_ms": 72700,
+    "end_ms": 73120,
+    "prob": 0.996
+  },
+  {
+    "idx": 156,
+    "word": "holds",
+    "start": 73.13,
+    "end": 73.58,
+    "start_ms": 73130,
+    "end_ms": 73580,
+    "prob": 0.996
+  },
+  {
+    "idx": 157,
+    "word": "pooled",
+    "start": 73.58,
+    "end": 74.08,
+    "start_ms": 73580,
+    "end_ms": 74080,
+    "prob": 0.98
+  },
+  {
+    "idx": 158,
+    "word": "funds.",
+    "start": 74.09,
+    "end": 74.36,
+    "start_ms": 74090,
+    "end_ms": 74360,
+    "prob": 0.999
+  },
+  {
+    "idx": 159,
+    "word": "Every",
+    "start": 75.11,
+    "end": 75.36,
+    "start_ms": 75110,
+    "end_ms": 75360,
+    "prob": 0.997
+  },
+  {
+    "idx": 160,
+    "word": "payment",
+    "start": 75.36,
+    "end": 75.7,
+    "start_ms": 75360,
+    "end_ms": 75700,
+    "prob": 0.999
+  },
+  {
+    "idx": 161,
+    "word": "generates",
+    "start": 75.7,
+    "end": 76.26,
+    "start_ms": 75700,
+    "end_ms": 76260,
+    "prob": 0.995
+  },
+  {
+    "idx": 162,
+    "word": "a",
+    "start": 76.26,
+    "end": 76.46,
+    "start_ms": 76260,
+    "end_ms": 76460,
+    "prob": 0.998
+  },
+  {
+    "idx": 163,
+    "word": "direct",
+    "start": 76.46,
+    "end": 76.8,
+    "start_ms": 76460,
+    "end_ms": 76800,
+    "prob": 0.912
+  },
+  {
+    "idx": 164,
+    "word": "Bitcoin",
+    "start": 77.0,
+    "end": 77.32,
+    "start_ms": 77000,
+    "end_ms": 77320,
+    "prob": 0.758
+  },
+  {
+    "idx": 165,
+    "word": "Lightning",
+    "start": 77.32,
+    "end": 77.8,
+    "start_ms": 77320,
+    "end_ms": 77800,
+    "prob": 0.654
+  },
+  {
+    "idx": 166,
+    "word": "invoice",
+    "start": 77.8,
+    "end": 78.3,
+    "start_ms": 77800,
+    "end_ms": 78300,
+    "prob": 0.989
+  },
+  {
+    "idx": 167,
+    "word": "straight",
+    "start": 78.3,
+    "end": 78.94,
+    "start_ms": 78300,
+    "end_ms": 78940,
+    "prob": 0.903
+  },
+  {
+    "idx": 168,
+    "word": "to",
+    "start": 78.94,
+    "end": 79.18,
+    "start_ms": 78940,
+    "end_ms": 79180,
+    "prob": 0.994
+  },
+  {
+    "idx": 169,
+    "word": "Mariama",
+    "start": 79.18,
+    "end": 79.76,
+    "start_ms": 79180,
+    "end_ms": 79760,
+    "prob": 0.698
+  },
+  {
+    "idx": 170,
+    "word": "wallet,",
+    "start": 79.76,
+    "end": 80.08,
+    "start_ms": 79760,
+    "end_ms": 80080,
+    "prob": 0.945
+  },
+  {
+    "idx": 171,
+    "word": "either",
+    "start": 80.74,
+    "end": 80.9,
+    "start_ms": 80740,
+    "end_ms": 80900,
+    "prob": 0.187
+  },
+  {
+    "idx": 172,
+    "word": "paid",
+    "start": 80.9,
+    "end": 81.24,
+    "start_ms": 80900,
+    "end_ms": 81240,
+    "prob": 0.989
+  },
+  {
+    "idx": 173,
+    "word": "automatically",
+    "start": 81.24,
+    "end": 82.0,
+    "start_ms": 81240,
+    "end_ms": 82000,
+    "prob": 0.998
+  },
+  {
+    "idx": 174,
+    "word": "via",
+    "start": 82.0,
+    "end": 82.4,
+    "start_ms": 82000,
+    "end_ms": 82400,
+    "prob": 0.99
+  },
+  {
+    "idx": 175,
+    "word": "Nostr",
+    "start": 82.4,
+    "end": 83.14,
+    "start_ms": 82400,
+    "end_ms": 83140,
+    "prob": 0.632
+  },
+  {
+    "idx": 176,
+    "word": "wallet",
+    "start": 83.14,
+    "end": 83.55,
+    "start_ms": 83140,
+    "end_ms": 83550,
+    "prob": 0.92
+  },
+  {
+    "idx": 177,
+    "word": "Connect",
+    "start": 83.63,
+    "end": 83.88,
+    "start_ms": 83630,
+    "end_ms": 83880,
+    "prob": 0.932
+  },
+  {
+    "idx": 178,
+    "word": "or",
+    "start": 83.88,
+    "end": 84.64,
+    "start_ms": 83880,
+    "end_ms": 84640,
+    "prob": 0.766
+  },
+  {
+    "idx": 179,
+    "word": "by",
+    "start": 84.64,
+    "end": 84.82,
+    "start_ms": 84640,
+    "end_ms": 84820,
+    "prob": 0.992
+  },
+  {
+    "idx": 180,
+    "word": "scanning",
+    "start": 84.82,
+    "end": 85.2,
+    "start_ms": 84820,
+    "end_ms": 85200,
+    "prob": 0.998
+  },
+  {
+    "idx": 181,
+    "word": "a",
+    "start": 85.2,
+    "end": 85.42,
+    "start_ms": 85200,
+    "end_ms": 85420,
+    "prob": 0.992
+  },
+  {
+    "idx": 182,
+    "word": "standard",
+    "start": 85.42,
+    "end": 85.72,
+    "start_ms": 85420,
+    "end_ms": 85720,
+    "prob": 0.964
+  },
+  {
+    "idx": 183,
+    "word": "Lightning",
+    "start": 85.72,
+    "end": 86.2,
+    "start_ms": 85720,
+    "end_ms": 86200,
+    "prob": 0.242
+  },
+  {
+    "idx": 184,
+    "word": "QR",
+    "start": 86.2,
+    "end": 86.74,
+    "start_ms": 86200,
+    "end_ms": 86740,
+    "prob": 0.981
+  },
+  {
+    "idx": 185,
+    "word": "code.",
+    "start": 86.74,
+    "end": 87.27,
+    "start_ms": 86740,
+    "end_ms": 87270,
+    "prob": 0.971
+  },
+  {
+    "idx": 186,
+    "word": "One",
+    "start": 87.99,
+    "end": 88.22,
+    "start_ms": 87990,
+    "end_ms": 88220,
+    "prob": 0.982
+  },
+  {
+    "idx": 187,
+    "word": "click",
+    "start": 88.22,
+    "end": 88.52,
+    "start_ms": 88220,
+    "end_ms": 88520,
+    "prob": 0.939
+  },
+  {
+    "idx": 188,
+    "word": "and",
+    "start": 88.52,
+    "end": 88.9,
+    "start_ms": 88520,
+    "end_ms": 88900,
+    "prob": 0.801
+  },
+  {
+    "idx": 189,
+    "word": "the",
+    "start": 88.9,
+    "end": 88.99,
+    "start_ms": 88900,
+    "end_ms": 88990,
+    "prob": 0.998
+  },
+  {
+    "idx": 190,
+    "word": "contribution",
+    "start": 89.04,
+    "end": 89.5,
+    "start_ms": 89040,
+    "end_ms": 89500,
+    "prob": 0.916
+  },
+  {
+    "idx": 191,
+    "word": "settles",
+    "start": 89.5,
+    "end": 90.12,
+    "start_ms": 89500,
+    "end_ms": 90120,
+    "prob": 0.998
+  },
+  {
+    "idx": 192,
+    "word": "peer",
+    "start": 90.12,
+    "end": 90.38,
+    "start_ms": 90120,
+    "end_ms": 90380,
+    "prob": 0.948
+  },
+  {
+    "idx": 193,
+    "word": "-to",
+    "start": 90.38,
+    "end": 90.49,
+    "start_ms": 90380,
+    "end_ms": 90490,
+    "prob": 0.815
+  },
+  {
+    "idx": 194,
+    "word": "-peer",
+    "start": 90.55,
+    "end": 90.84,
+    "start_ms": 90550,
+    "end_ms": 90840,
+    "prob": 0.998
+  },
+  {
+    "idx": 195,
+    "word": "in",
+    "start": 90.84,
+    "end": 91.12,
+    "start_ms": 90840,
+    "end_ms": 91120,
+    "prob": 0.989
+  },
+  {
+    "idx": 196,
+    "word": "seconds.",
+    "start": 91.12,
+    "end": 91.58,
+    "start_ms": 91120,
+    "end_ms": 91580,
+    "prob": 0.999
+  },
+  {
+    "idx": 197,
+    "word": "Every",
+    "start": 92.81,
+    "end": 93.02,
+    "start_ms": 92810,
+    "end_ms": 93020,
+    "prob": 0.994
+  },
+  {
+    "idx": 198,
+    "word": "payment",
+    "start": 93.02,
+    "end": 93.4,
+    "start_ms": 93020,
+    "end_ms": 93400,
+    "prob": 0.997
+  },
+  {
+    "idx": 199,
+    "word": "produces",
+    "start": 93.4,
+    "end": 93.96,
+    "start_ms": 93400,
+    "end_ms": 93960,
+    "prob": 0.998
+  },
+  {
+    "idx": 200,
+    "word": "a",
+    "start": 93.96,
+    "end": 94.18,
+    "start_ms": 93960,
+    "end_ms": 94180,
+    "prob": 0.998
+  },
+  {
+    "idx": 201,
+    "word": "cryptographic",
+    "start": 94.26,
+    "end": 94.9,
+    "start_ms": 94260,
+    "end_ms": 94900,
+    "prob": 0.996
+  },
+  {
+    "idx": 202,
+    "word": "receipt",
+    "start": 94.9,
+    "end": 95.44,
+    "start_ms": 94900,
+    "end_ms": 95440,
+    "prob": 0.998
+  },
+  {
+    "idx": 203,
+    "word": "with",
+    "start": 95.44,
+    "end": 96.09,
+    "start_ms": 95440,
+    "end_ms": 96090,
+    "prob": 0.98
+  },
+  {
+    "idx": 204,
+    "word": "a",
+    "start": 96.11,
+    "end": 96.22,
+    "start_ms": 96110,
+    "end_ms": 96220,
+    "prob": 0.996
+  },
+  {
+    "idx": 205,
+    "word": "verified",
+    "start": 96.27,
+    "end": 96.6,
+    "start_ms": 96270,
+    "end_ms": 96600,
+    "prob": 0.993
+  },
+  {
+    "idx": 206,
+    "word": "Lightning",
+    "start": 96.6,
+    "end": 97.22,
+    "start_ms": 96600,
+    "end_ms": 97220,
+    "prob": 0.962
+  },
+  {
+    "idx": 207,
+    "word": "pre",
+    "start": 97.22,
+    "end": 97.56,
+    "start_ms": 97220,
+    "end_ms": 97560,
+    "prob": 0.99
+  },
+  {
+    "idx": 208,
+    "word": "-preimage",
+    "start": 97.56,
+    "end": 97.82,
+    "start_ms": 97560,
+    "end_ms": 97820,
+    "prob": 0.863
+  },
+  {
+    "idx": 209,
+    "word": "and",
+    "start": 97.82,
+    "end": 98.56,
+    "start_ms": 97820,
+    "end_ms": 98560,
+    "prob": 0.944
+  },
+  {
+    "idx": 210,
+    "word": "a",
+    "start": 98.56,
+    "end": 98.7,
+    "start_ms": 98560,
+    "end_ms": 98700,
+    "prob": 0.994
+  },
+  {
+    "idx": 211,
+    "word": "cosigned",
+    "start": 98.7,
+    "end": 99.34,
+    "start_ms": 98700,
+    "end_ms": 99340,
+    "prob": 0.684
+  },
+  {
+    "idx": 212,
+    "word": "Nostr",
+    "start": 99.34,
+    "end": 100.08,
+    "start_ms": 99340,
+    "end_ms": 100080,
+    "prob": 0.983
+  },
+  {
+    "idx": 213,
+    "word": "attestation.",
+    "start": 100.26,
+    "end": 101.01,
+    "start_ms": 100260,
+    "end_ms": 101010,
+    "prob": 0.992
+  },
+  {
+    "idx": 214,
+    "word": "Over",
+    "start": 101.77,
+    "end": 101.96,
+    "start_ms": 101770,
+    "end_ms": 101960,
+    "prob": 0.999
+  },
+  {
+    "idx": 215,
+    "word": "in",
+    "start": 101.96,
+    "end": 102.14,
+    "start_ms": 101960,
+    "end_ms": 102140,
+    "prob": 0.985
+  },
+  {
+    "idx": 216,
+    "word": "the",
+    "start": 102.14,
+    "end": 102.24,
+    "start_ms": 102140,
+    "end_ms": 102240,
+    "prob": 0.994
+  },
+  {
+    "idx": 217,
+    "word": "trust",
+    "start": 102.26,
+    "end": 102.48,
+    "start_ms": 102260,
+    "end_ms": 102480,
+    "prob": 0.473
+  },
+  {
+    "idx": 218,
+    "word": "passport,",
+    "start": 102.48,
+    "end": 103.16,
+    "start_ms": 102480,
+    "end_ms": 103160,
+    "prob": 0.958
+  },
+  {
+    "idx": 219,
+    "word": "those",
+    "start": 103.61,
+    "end": 103.76,
+    "start_ms": 103610,
+    "end_ms": 103760,
+    "prob": 0.998
+  },
+  {
+    "idx": 220,
+    "word": "verified",
+    "start": 103.76,
+    "end": 104.2,
+    "start_ms": 103760,
+    "end_ms": 104200,
+    "prob": 0.995
+  },
+  {
+    "idx": 221,
+    "word": "payments",
+    "start": 104.2,
+    "end": 104.7,
+    "start_ms": 104200,
+    "end_ms": 104700,
+    "prob": 0.995
+  },
+  {
+    "idx": 222,
+    "word": "Builders",
+    "start": 104.7,
+    "end": 105.06,
+    "start_ms": 104700,
+    "end_ms": 105060,
+    "prob": 0.987
+  },
+  {
+    "idx": 223,
+    "word": "a",
+    "start": 105.06,
+    "end": 105.2,
+    "start_ms": 105060,
+    "end_ms": 105200,
+    "prob": 0.999
+  },
+  {
+    "idx": 224,
+    "word": "portable,",
+    "start": 105.29,
+    "end": 105.72,
+    "start_ms": 105290,
+    "end_ms": 105720,
+    "prob": 0.993
+  },
+  {
+    "idx": 225,
+    "word": "on",
+    "start": 106.25,
+    "end": 106.46,
+    "start_ms": 106250,
+    "end_ms": 106460,
+    "prob": 0.995
+  },
+  {
+    "idx": 226,
+    "word": "-time",
+    "start": 106.46,
+    "end": 106.78,
+    "start_ms": 106460,
+    "end_ms": 106780,
+    "prob": 0.902
+  },
+  {
+    "idx": 227,
+    "word": "reputation",
+    "start": 106.78,
+    "end": 107.48,
+    "start_ms": 106780,
+    "end_ms": 107480,
+    "prob": 0.983
+  },
+  {
+    "idx": 228,
+    "word": "tied",
+    "start": 107.48,
+    "end": 108.2,
+    "start_ms": 107480,
+    "end_ms": 108200,
+    "prob": 0.002
+  },
+  {
+    "idx": 229,
+    "word": "to",
+    "start": 108.2,
+    "end": 108.48,
+    "start_ms": 108200,
+    "end_ms": 108480,
+    "prob": 0.995
+  },
+  {
+    "idx": 230,
+    "word": "your",
+    "start": 108.48,
+    "end": 108.64,
+    "start_ms": 108480,
+    "end_ms": 108640,
+    "prob": 0.987
+  },
+  {
+    "idx": 231,
+    "word": "own",
+    "start": 108.64,
+    "end": 108.94,
+    "start_ms": 108640,
+    "end_ms": 108940,
+    "prob": 0.999
+  },
+  {
+    "idx": 232,
+    "word": "Nostr",
+    "start": 108.94,
+    "end": 109.58,
+    "start_ms": 108940,
+    "end_ms": 109580,
+    "prob": 0.288
+  },
+  {
+    "idx": 233,
+    "word": "identity,",
+    "start": 109.58,
+    "end": 110.14,
+    "start_ms": 109580,
+    "end_ms": 110140,
+    "prob": 0.913
+  },
+  {
+    "idx": 234,
+    "word": "something",
+    "start": 110.81,
+    "end": 111.12,
+    "start_ms": 110810,
+    "end_ms": 111120,
+    "prob": 0.992
+  },
+  {
+    "idx": 235,
+    "word": "you",
+    "start": 111.12,
+    "end": 111.36,
+    "start_ms": 111120,
+    "end_ms": 111360,
+    "prob": 0.994
+  },
+  {
+    "idx": 236,
+    "word": "truly",
+    "start": 111.36,
+    "end": 111.7,
+    "start_ms": 111360,
+    "end_ms": 111700,
+    "prob": 0.997
+  },
+  {
+    "idx": 237,
+    "word": "own",
+    "start": 111.7,
+    "end": 112.16,
+    "start_ms": 111700,
+    "end_ms": 112160,
+    "prob": 0.997
+  },
+  {
+    "idx": 238,
+    "word": "and",
+    "start": 112.16,
+    "end": 112.56,
+    "start_ms": 112160,
+    "end_ms": 112560,
+    "prob": 0.904
+  },
+  {
+    "idx": 239,
+    "word": "can",
+    "start": 112.56,
+    "end": 112.72,
+    "start_ms": 112560,
+    "end_ms": 112720,
+    "prob": 0.993
+  },
+  {
+    "idx": 240,
+    "word": "bring",
+    "start": 112.72,
+    "end": 112.94,
+    "start_ms": 112720,
+    "end_ms": 112940,
+    "prob": 0.999
+  },
+  {
+    "idx": 241,
+    "word": "to",
+    "start": 112.94,
+    "end": 113.16,
+    "start_ms": 112940,
+    "end_ms": 113160,
+    "prob": 0.997
+  },
+  {
+    "idx": 242,
+    "word": "any",
+    "start": 113.24,
+    "end": 113.44,
+    "start_ms": 113240,
+    "end_ms": 113440,
+    "prob": 0.997
+  },
+  {
+    "idx": 243,
+    "word": "future",
+    "start": 113.44,
+    "end": 113.78,
+    "start_ms": 113440,
+    "end_ms": 113780,
+    "prob": 0.977
+  },
+  {
+    "idx": 244,
+    "word": "circle.",
+    "start": 113.78,
+    "end": 114.28,
+    "start_ms": 113780,
+    "end_ms": 114280,
+    "prob": 0.896
+  },
+  {
+    "idx": 245,
+    "word": "And",
+    "start": 115.32,
+    "end": 115.44,
+    "start_ms": 115320,
+    "end_ms": 115440,
+    "prob": 0.954
+  },
+  {
+    "idx": 246,
+    "word": "creating",
+    "start": 115.44,
+    "end": 115.82,
+    "start_ms": 115440,
+    "end_ms": 115820,
+    "prob": 0.99
+  },
+  {
+    "idx": 247,
+    "word": "a",
+    "start": 115.82,
+    "end": 116.1,
+    "start_ms": 115820,
+    "end_ms": 116100,
+    "prob": 0.999
+  },
+  {
+    "idx": 248,
+    "word": "real",
+    "start": 116.1,
+    "end": 116.3,
+    "start_ms": 116100,
+    "end_ms": 116300,
+    "prob": 0.977
+  },
+  {
+    "idx": 249,
+    "word": "circle",
+    "start": 116.3,
+    "end": 116.68,
+    "start_ms": 116300,
+    "end_ms": 116680,
+    "prob": 0.99
+  },
+  {
+    "idx": 250,
+    "word": "takes",
+    "start": 116.68,
+    "end": 117.2,
+    "start_ms": 116680,
+    "end_ms": 117200,
+    "prob": 0.94
+  },
+  {
+    "idx": 251,
+    "word": "seconds.",
+    "start": 117.21,
+    "end": 117.74,
+    "start_ms": 117210,
+    "end_ms": 117740,
+    "prob": 0.998
+  },
+  {
+    "idx": 252,
+    "word": "Just",
+    "start": 118.45,
+    "end": 118.63,
+    "start_ms": 118450,
+    "end_ms": 118630,
+    "prob": 0.997
+  },
+  {
+    "idx": 253,
+    "word": "click",
+    "start": 118.65,
+    "end": 118.98,
+    "start_ms": 118650,
+    "end_ms": 118980,
+    "prob": 0.997
+  },
+  {
+    "idx": 254,
+    "word": "New",
+    "start": 119.05,
+    "end": 119.48,
+    "start_ms": 119050,
+    "end_ms": 119480,
+    "prob": 0.604
+  },
+  {
+    "idx": 255,
+    "word": "Circle,",
+    "start": 119.48,
+    "end": 119.96,
+    "start_ms": 119480,
+    "end_ms": 119960,
+    "prob": 0.971
+  },
+  {
+    "idx": 256,
+    "word": "enter",
+    "start": 120.51,
+    "end": 120.74,
+    "start_ms": 120510,
+    "end_ms": 120740,
+    "prob": 0.989
+  },
+  {
+    "idx": 257,
+    "word": "a",
+    "start": 120.74,
+    "end": 120.92,
+    "start_ms": 120740,
+    "end_ms": 120920,
+    "prob": 0.996
+  },
+  {
+    "idx": 258,
+    "word": "name",
+    "start": 120.92,
+    "end": 121.12,
+    "start_ms": 120920,
+    "end_ms": 121120,
+    "prob": 0.997
+  },
+  {
+    "idx": 259,
+    "word": "like",
+    "start": 121.12,
+    "end": 121.42,
+    "start_ms": 121120,
+    "end_ms": 121420,
+    "prob": 0.985
+  },
+  {
+    "idx": 260,
+    "word": "Dakar",
+    "start": 121.42,
+    "end": 122.06,
+    "start_ms": 121420,
+    "end_ms": 122060,
+    "prob": 0.786
+  },
+  {
+    "idx": 261,
+    "word": "Builders,",
+    "start": 122.06,
+    "end": 122.69,
+    "start_ms": 122060,
+    "end_ms": 122690,
+    "prob": 0.853
+  },
+  {
+    "idx": 262,
+    "word": "set",
+    "start": 123.3,
+    "end": 123.44,
+    "start_ms": 123300,
+    "end_ms": 123440,
+    "prob": 0.993
+  },
+  {
+    "idx": 263,
+    "word": "the",
+    "start": 123.53,
+    "end": 123.62,
+    "start_ms": 123530,
+    "end_ms": 123620,
+    "prob": 0.998
+  },
+  {
+    "idx": 264,
+    "word": "monthly",
+    "start": 123.62,
+    "end": 123.93,
+    "start_ms": 123620,
+    "end_ms": 123930,
+    "prob": 0.993
+  },
+  {
+    "idx": 265,
+    "word": "contribution",
+    "start": 123.96,
+    "end": 124.8,
+    "start_ms": 123960,
+    "end_ms": 124800,
+    "prob": 0.998
+  },
+  {
+    "idx": 266,
+    "word": "in",
+    "start": 124.8,
+    "end": 125.04,
+    "start_ms": 124800,
+    "end_ms": 125040,
+    "prob": 0.996
+  },
+  {
+    "idx": 267,
+    "word": "CFA",
+    "start": 125.04,
+    "end": 125.6,
+    "start_ms": 125040,
+    "end_ms": 125600,
+    "prob": 0.983
+  },
+  {
+    "idx": 268,
+    "word": "Franks,",
+    "start": 125.6,
+    "end": 126.24,
+    "start_ms": 125600,
+    "end_ms": 126240,
+    "prob": 0.779
+  },
+  {
+    "idx": 269,
+    "word": "notice",
+    "start": 126.84,
+    "end": 127.06,
+    "start_ms": 126840,
+    "end_ms": 127060,
+    "prob": 0.973
+  },
+  {
+    "idx": 270,
+    "word": "the",
+    "start": 127.06,
+    "end": 127.3,
+    "start_ms": 127060,
+    "end_ms": 127300,
+    "prob": 0.999
+  },
+  {
+    "idx": 271,
+    "word": "live",
+    "start": 127.3,
+    "end": 127.54,
+    "start_ms": 127300,
+    "end_ms": 127540,
+    "prob": 0.777
+  },
+  {
+    "idx": 272,
+    "word": "EUR",
+    "start": 127.54,
+    "end": 127.88,
+    "start_ms": 127540,
+    "end_ms": 127880,
+    "prob": 0.815
+  },
+  {
+    "idx": 273,
+    "word": "and",
+    "start": 127.88,
+    "end": 128.08,
+    "start_ms": 127880,
+    "end_ms": 128080,
+    "prob": 0.955
+  },
+  {
+    "idx": 274,
+    "word": "Sats",
+    "start": 128.08,
+    "end": 128.32,
+    "start_ms": 128080,
+    "end_ms": 128320,
+    "prob": 0.708
+  },
+  {
+    "idx": 275,
+    "word": "conversion,",
+    "start": 128.32,
+    "end": 128.76,
+    "start_ms": 128320,
+    "end_ms": 128760,
+    "prob": 0.961
+  },
+  {
+    "idx": 276,
+    "word": "and",
+    "start": 129.52,
+    "end": 129.64,
+    "start_ms": 129520,
+    "end_ms": 129640,
+    "prob": 0.999
+  },
+  {
+    "idx": 277,
+    "word": "hit",
+    "start": 129.64,
+    "end": 129.82,
+    "start_ms": 129640,
+    "end_ms": 129820,
+    "prob": 0.999
+  },
+  {
+    "idx": 278,
+    "word": "Create.",
+    "start": 129.9,
+    "end": 130.32,
+    "start_ms": 129900,
+    "end_ms": 130320,
+    "prob": 0.855
+  },
+  {
+    "idx": 279,
+    "word": "You",
+    "start": 131.07,
+    "end": 131.18,
+    "start_ms": 131070,
+    "end_ms": 131180,
+    "prob": 0.999
+  },
+  {
+    "idx": 280,
+    "word": "immediately",
+    "start": 131.18,
+    "end": 131.66,
+    "start_ms": 131180,
+    "end_ms": 131660,
+    "prob": 0.996
+  },
+  {
+    "idx": 281,
+    "word": "get",
+    "start": 131.66,
+    "end": 132.02,
+    "start_ms": 131660,
+    "end_ms": 132020,
+    "prob": 0.999
+  },
+  {
+    "idx": 282,
+    "word": "a",
+    "start": 132.02,
+    "end": 132.18,
+    "start_ms": 132020,
+    "end_ms": 132180,
+    "prob": 0.996
+  },
+  {
+    "idx": 283,
+    "word": "live",
+    "start": 132.18,
+    "end": 132.4,
+    "start_ms": 132180,
+    "end_ms": 132400,
+    "prob": 0.984
+  },
+  {
+    "idx": 284,
+    "word": "invite",
+    "start": 132.4,
+    "end": 132.76,
+    "start_ms": 132400,
+    "end_ms": 132760,
+    "prob": 0.944
+  },
+  {
+    "idx": 285,
+    "word": "code",
+    "start": 132.76,
+    "end": 133.12,
+    "start_ms": 132760,
+    "end_ms": 133120,
+    "prob": 0.994
+  },
+  {
+    "idx": 286,
+    "word": "to",
+    "start": 133.12,
+    "end": 133.32,
+    "start_ms": 133120,
+    "end_ms": 133320,
+    "prob": 0.999
+  },
+  {
+    "idx": 287,
+    "word": "share",
+    "start": 133.32,
+    "end": 133.5,
+    "start_ms": 133320,
+    "end_ms": 133500,
+    "prob": 1.0
+  },
+  {
+    "idx": 288,
+    "word": "with",
+    "start": 133.5,
+    "end": 133.66,
+    "start_ms": 133500,
+    "end_ms": 133660,
+    "prob": 0.999
+  },
+  {
+    "idx": 289,
+    "word": "your",
+    "start": 133.69,
+    "end": 133.78,
+    "start_ms": 133690,
+    "end_ms": 133780,
+    "prob": 0.998
+  },
+  {
+    "idx": 290,
+    "word": "group.",
+    "start": 133.78,
+    "end": 134.07,
+    "start_ms": 133780,
+    "end_ms": 134070,
+    "prob": 0.998
+  },
+  {
+    "idx": 291,
+    "word": "TontineSats,",
+    "start": 134.83,
+    "end": 135.98,
+    "start_ms": 134830,
+    "end_ms": 135980,
+    "prob": 0.363
+  },
+  {
+    "idx": 292,
+    "word": "traditional",
+    "start": 136.6,
+    "end": 136.96,
+    "start_ms": 136600,
+    "end_ms": 136960,
+    "prob": 0.689
+  },
+  {
+    "idx": 293,
+    "word": "community",
+    "start": 136.96,
+    "end": 137.42,
+    "start_ms": 136960,
+    "end_ms": 137420,
+    "prob": 0.974
+  },
+  {
+    "idx": 294,
+    "word": "savings",
+    "start": 137.42,
+    "end": 137.96,
+    "start_ms": 137420,
+    "end_ms": 137960,
+    "prob": 0.99
+  },
+  {
+    "idx": 295,
+    "word": "powered",
+    "start": 137.96,
+    "end": 138.74,
+    "start_ms": 137960,
+    "end_ms": 138740,
+    "prob": 0.716
+  },
+  {
+    "idx": 296,
+    "word": "by",
+    "start": 138.74,
+    "end": 138.98,
+    "start_ms": 138740,
+    "end_ms": 138980,
+    "prob": 0.998
+  },
+  {
+    "idx": 297,
+    "word": "Bitcoin",
+    "start": 138.98,
+    "end": 139.34,
+    "start_ms": 138980,
+    "end_ms": 139340,
+    "prob": 0.823
+  },
+  {
+    "idx": 298,
+    "word": "Lightning",
+    "start": 139.36,
+    "end": 139.82,
+    "start_ms": 139360,
+    "end_ms": 139820,
+    "prob": 0.218
+  },
+  {
+    "idx": 299,
+    "word": "and",
+    "start": 139.82,
+    "end": 140.3,
+    "start_ms": 139820,
+    "end_ms": 140300,
+    "prob": 0.967
+  },
+  {
+    "idx": 300,
+    "word": "Nostr.",
+    "start": 140.3,
+    "end": 140.87,
+    "start_ms": 140300,
+    "end_ms": 140870,
+    "prob": 0.507
+  }
+]
