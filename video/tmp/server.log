@@ -1,5 +1,0 @@
-
-> tontinesats@0.1.0 start
-> tsx src/server/index.ts
-
-TontineSats API & server listening on http://localhost:3001

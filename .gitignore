@@ -8,3 +8,11 @@ data/
 .DS_Store
 .andromity/
 .vercel/
+
+# Demo and video assets stay local; they are not part of the app
+video/
+*.mp4
+*.webm
+*.wav
+*.mp3
+*.zip
